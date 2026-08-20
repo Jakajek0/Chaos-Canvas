@@ -27,5 +27,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00400+"
+  "collisions": "00400+",
+  "playerSpriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32"
 }
