@@ -5,19 +5,19 @@
   "symbol": "sprite_cat",
   "states": [
     {
-      "id": "32ad68ec-e28e-41ae-bb9a-6d6552355a37",
+      "id": "d8578fa2-f708-473c-89cc-21043f56f094",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "1a018c2f-250d-4e97-8282-f521d8507242",
+          "id": "b78dc609-f31f-4bc4-858c-c45482d27845",
           "frames": [
             {
-              "id": "6caec5f1-18c3-4fac-9026-79db63b81c22",
+              "id": "7760e9ae-0132-4836-a4f2-41d4e4037577",
               "tiles": [
                 {
-                  "id": "b12628f4-2615-4965-a15e-13630487b36c",
+                  "id": "72502ed2-4033-4769-9710-3183b3b589fa",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "3ded4fb2-1b6c-43ae-b72c-6a92f461888a",
+                  "id": "3c7c0488-df38-43ed-bb14-998898c7cd24",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -47,64 +47,64 @@
           ]
         },
         {
-          "id": "8f0b0345-caa1-4f0d-b66c-27b18034ddd4",
+          "id": "54c9b79b-2055-4604-8205-2f7974a949c2",
           "frames": [
             {
-              "id": "8c2a5986-665a-4a65-afed-21f2f6f17360",
+              "id": "df0f71c1-1394-4a00-bf28-e35f63c772e1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "334f98aa-c974-4e2b-9307-dd64d6e8c1a9",
+          "id": "028a9e5a-046a-4177-b2b3-f9977e87dc01",
           "frames": [
             {
-              "id": "ea2e7e02-8e13-449c-b594-151002886a3e",
+              "id": "4340cc9b-889d-4094-a81d-61311992b0e1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "89c0febe-e0f3-4f77-9d74-057d28f06957",
+          "id": "a2bf0a45-dc4f-4fdc-b548-69de6351a099",
           "frames": [
             {
-              "id": "80a2995b-43eb-4b91-baac-a3c0b42c0147",
+              "id": "b78a3f57-8394-4f01-8e25-089c750bb6c7",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e755b9f2-f94d-4a12-b84a-e5ac410b2f14",
+          "id": "f3c2f1e6-8e87-4045-8216-af0d4a302847",
           "frames": [
             {
-              "id": "b8d89ab7-4f1e-40d2-a28e-f86ab1be064c",
+              "id": "deb43a62-ceb6-49ce-a93a-89b76274f311",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f041de23-cb9d-46d4-aaf8-c68587f6f634",
+          "id": "570bb4e6-4ed5-4f00-b45d-36e7a112bc5b",
           "frames": [
             {
-              "id": "feadbf96-e3ea-4918-9ecd-cf7dc57018d7",
+              "id": "ea30edd3-c653-4a6b-9cd8-1bcdfbfc41f8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c1a24ebf-303f-4241-b82c-fe0b8abba481",
+          "id": "54cf0e94-e8ce-45d7-9a40-be81a5ed2975",
           "frames": [
             {
-              "id": "8d0b7bcc-347b-45f8-a61c-b65a8aa53ed1",
+              "id": "1ddb980e-9d74-470f-9988-9cd1a85fac50",
               "tiles": []
             }
           ]
         },
         {
-          "id": "862a27db-83c7-4695-8ebb-87685c5c7596",
+          "id": "1df8ff90-5bfa-4fd1-b0c8-64aca69163bf",
           "frames": [
             {
-              "id": "a658e8cb-fa42-415f-8c1c-36a8eceaf458",
+              "id": "1c9ab11b-8f17-4fd9-879c-635708401fa7",
               "tiles": []
             }
           ]

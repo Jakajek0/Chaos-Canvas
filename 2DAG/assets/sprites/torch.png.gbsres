@@ -5,19 +5,19 @@
   "symbol": "sprite_torch",
   "states": [
     {
-      "id": "a2be6538-86a9-4cc1-901c-e15cd6524b9b",
+      "id": "80876dac-432a-469d-aab7-a9e755455904",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "0fbd213d-acd8-4504-a156-5ee3d83a8359",
+          "id": "128b1bb2-fc70-421d-a4b7-a480d4f3fb6e",
           "frames": [
             {
-              "id": "fca2738b-99d8-4cae-b483-2abfe718e375",
+              "id": "72897310-eb90-4959-961e-c7857474d9fb",
               "tiles": [
                 {
-                  "id": "8e7d98cf-e90e-4583-aa7e-16092a164d53",
+                  "id": "f94e17e5-a43a-4cf0-a11e-9babb61196fc",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -25,12 +25,12 @@
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 6,
+                  "paletteIndex": 0,
                   "objPalette": "OBP0",
                   "priority": false
                 },
                 {
-                  "id": "c827899a-478c-40d6-bc84-543dac66f183",
+                  "id": "424d6d54-e9f8-4ec8-8f51-ea102daf8f2f",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -38,7 +38,7 @@
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 6,
+                  "paletteIndex": 0,
                   "objPalette": "OBP0",
                   "priority": false
                 }
@@ -47,64 +47,64 @@
           ]
         },
         {
-          "id": "fc1d7820-53dd-41be-ad0c-4d032391bde3",
+          "id": "0858f839-a346-4c40-a2d8-f35762488276",
           "frames": [
             {
-              "id": "ce3352c8-5610-4866-80c2-6e9757455d2a",
+              "id": "a4dca326-7b48-4d28-bde3-ca534d96543b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "bc3064e9-73bd-419d-ad7f-1baeaf6f6a1e",
+          "id": "b6e75e1d-e429-4cf3-b9b0-cf5064327a61",
           "frames": [
             {
-              "id": "f7bd5b43-d27f-4c18-9340-7d872264f565",
+              "id": "55f8972d-3815-4d6d-8022-ff009bd285ad",
               "tiles": []
             }
           ]
         },
         {
-          "id": "01d9c4ae-0e43-45eb-aeef-3155b3a35f90",
+          "id": "1079d1ca-cf02-4cd8-b752-7d7d4cc7543b",
           "frames": [
             {
-              "id": "15b6c24e-86a8-4e53-b92d-e579cdc58a18",
+              "id": "fa4d713d-99bf-4806-992c-729285261942",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f3336e7b-cd3b-432b-946d-8354c2aac5d0",
+          "id": "d051b0d5-563f-4084-8f4f-279ae337eb55",
           "frames": [
             {
-              "id": "d8685c5c-deae-45c1-96d7-f611ce964fa8",
+              "id": "67096096-2eaf-4013-9e8a-38a67ae4606c",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8f3752bb-fac9-446e-95cd-1c3bc61b004b",
+          "id": "d9b28785-6b43-45e5-a320-e15e76d97dd8",
           "frames": [
             {
-              "id": "7a71c529-94f5-418c-96cd-c53d6d694c4d",
+              "id": "fee0ed83-e9bf-4301-ad37-5a51e0f31c16",
               "tiles": []
             }
           ]
         },
         {
-          "id": "9a896c46-188d-458a-8630-c451280a9986",
+          "id": "f890ce35-a634-4e37-bea7-0ae0eb9f1b5d",
           "frames": [
             {
-              "id": "cbd1d9a7-e224-40e3-98fd-05aae104b0cb",
+              "id": "db322dcc-6715-4bb0-b72d-bb5211d30d2c",
               "tiles": []
             }
           ]
         },
         {
-          "id": "098cf002-0fb6-483e-96ae-93f9859fec5a",
+          "id": "0bb49d82-309d-4525-ae27-58494c53e858",
           "frames": [
             {
-              "id": "64c3cd7d-2e5f-4909-bfc4-3cef88dffda3",
+              "id": "b1bf0a8f-98ba-435f-a968-9c24f8036da7",
               "tiles": []
             }
           ]
