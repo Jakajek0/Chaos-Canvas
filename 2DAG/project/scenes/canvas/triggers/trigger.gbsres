@@ -27,6 +27,29 @@
         "direction": "down",
         "fadeSpeed": "2"
       }
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "13"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "f2615a74-a1c7-4482-a803-5119769f7afd"
+            },
+            "id": "5b69820f-61c8-4c4d-b601-22f34041d7a8"
+          }
+        ],
+        "false": []
+      },
+      "id": "7fd4bb3e-426f-42bf-a6a8-6de12d38436a"
     }
   ],
   "leaveScript": []

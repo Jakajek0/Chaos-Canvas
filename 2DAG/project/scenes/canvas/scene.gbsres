@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "b3982019-9c3e-4a8f-baed-6f3b1d70ccc3",
+  "_index": 8,
+  "name": "Canvas",
+  "backgroundId": "4d991194-d103-45e0-aa3d-607db844da7e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 562.2857142857143,
+  "y": 601.1428571428571,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "13"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "f2615a74-a1c7-4482-a803-5119769f7afd"
+            },
+            "id": "a1c4beaa-65fc-41ab-908a-9002c33beda7"
+          }
+        ],
+        "false": []
+      },
+      "id": "d6719d7f-15ec-404b-a0da-db529cef63cc"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
+}

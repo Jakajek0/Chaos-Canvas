@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
   "id": "54e2fcd1-ad35-425d-b5ae-7439e510f335",
-  "name": "",
+  "name": "Beat",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "88537e6d-1d40-4ac2-9d2d-922342bdb52f",
+  "spriteSheetId": "9332dd23-cb5b-402b-ac32-60c248d6dd6e",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
