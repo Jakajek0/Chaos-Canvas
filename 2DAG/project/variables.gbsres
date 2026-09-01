@@ -67,6 +67,11 @@
       "symbol": "var_pushediceblock"
     },
     {
+      "id": "13",
+      "name": "foundDuck",
+      "symbol": "var_foundduck"
+    },
+    {
       "id": "d8200245-5aa1-4e8b-aa30-1a13bd2a9e1a__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -75,11 +80,6 @@
       "id": "fc139bcd-a16b-4151-a9de-7b7e88e437d6__L0",
       "name": "Local 0",
       "symbol": "var_local_2"
-    },
-    {
-      "id": "13",
-      "name": "foundDuck",
-      "symbol": "var_foundduck"
     }
   ],
   "constants": []
