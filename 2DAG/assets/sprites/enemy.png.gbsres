@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "350b9afb-db9f-47b7-acfb-a652654703b9",
+  "name": "enemy",
+  "symbol": "sprite_enemy",
+  "states": [
+    {
+      "id": "9feaf90d-eb4f-4e47-a5f8-bf2570ae205a",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "c29b0574-7922-45c0-93ee-1f872c7890bf",
+          "frames": [
+            {
+              "id": "21005bb0-0227-4419-a852-db7fbdaacf52",
+              "tiles": [
+                {
+                  "id": "ef0ebc69-0d36-4b2d-bc3d-48293e78545a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "9829b357-1255-47f7-977f-934581dadb9e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1395337-8b7d-40df-bcfd-247acc3511e6",
+          "frames": [
+            {
+              "id": "23e9bc4a-c7d6-47d8-b4b4-b5d8384fc820",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ccb9e1cd-5ddf-47ed-a2d1-f9e52ffdc3bf",
+          "frames": [
+            {
+              "id": "5d7008cc-c677-441e-8dd9-e2733aa20ecf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ba99741d-d78b-4947-b68e-24972c718cc3",
+          "frames": [
+            {
+              "id": "4e1467ca-1627-43a9-b34c-9ec652fd23b9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "66c5f1cc-3cdb-498e-8532-16eb0cf368cb",
+          "frames": [
+            {
+              "id": "c8d1af4d-7e88-4589-9e6d-f354b3c0de7f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fb8abfd5-9d1e-40a9-93ae-d57bd2a7da64",
+          "frames": [
+            {
+              "id": "ee98955c-c220-4546-9224-9cd2f14c6b87",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cad64891-cd20-41fa-a3ce-727cd9c86a76",
+          "frames": [
+            {
+              "id": "393ef898-838a-44c4-b9a2-5ccdc31b07a0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f5e30c9e-60ce-499e-88b8-90694abcc4ec",
+          "frames": [
+            {
+              "id": "04883a3a-bf5c-421b-a69a-ad5daaa41f5d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "enemy.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "deffff022213f750b78124f562639c35ebbf5793"
+}
