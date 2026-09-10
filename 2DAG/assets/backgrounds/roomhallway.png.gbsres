@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "491d6ee2-f8d0-4c89-b0d2-bcc09cf2fed7",
+  "name": "roomhallway",
+  "symbol": "bg_roomhallway",
+  "tileColors": "",
+  "filename": "roomhallway.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

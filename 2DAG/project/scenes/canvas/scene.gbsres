@@ -14,38 +14,9 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
-  "x": 562.2857142857143,
-  "y": 601.1428571428571,
-  "script": [
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "16",
-        "value": {
-          "type": "property",
-          "target": "player",
-          "property": "pxpos"
-        },
-        "__collapse": false,
-        "__comment": false
-      },
-      "id": "f5de29b1-b9e4-43b3-8558-b08c027683e8"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "17",
-        "value": {
-          "type": "property",
-          "target": "player",
-          "property": "pypos"
-        },
-        "__collapse": true,
-        "__comment": false
-      },
-      "id": "24ca0845-b1c5-4738-98f7-b40452890746"
-    }
-  ],
+  "x": 536,
+  "y": 360,
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
