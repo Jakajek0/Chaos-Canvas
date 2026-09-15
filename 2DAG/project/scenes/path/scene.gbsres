@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "ae00df56-b97d-46db-a908-4dd584b9f902",
+  "_index": 6,
+  "name": "Path",
+  "backgroundId": "e973a74b-9d1f-4eed-a71c-d7b2e42b98b9",
+  "tilesetId": "",
+  "width": 34,
+  "height": 20,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00f+0f!004+0f!001c+0f!004+0f!001c+0f!004+0f!00d+0f10+004+0fd+0021+0f!0021+0f!0021+0f2+0064+0f2+0020+0f!0021+0f!00!0f21+00ef+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 992,
+  "y": 408,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

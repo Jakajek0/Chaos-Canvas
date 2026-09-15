@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e973a74b-9d1f-4eed-a71c-d7b2e42b98b9",
+  "name": "path",
+  "symbol": "bg_path",
+  "tileColors": "",
+  "filename": "path.png",
+  "width": 34,
+  "height": 20,
+  "imageWidth": 272,
+  "imageHeight": 160
+}

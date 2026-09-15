@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cf0711ac-8823-4ff7-a6bf-df42200d6948",
+  "name": "pathandcave",
+  "symbol": "bg_pathandcave",
+  "tileColors": "",
+  "filename": "pathandcave.png",
+  "width": 32,
+  "height": 36,
+  "imageWidth": 256,
+  "imageHeight": 288
+}

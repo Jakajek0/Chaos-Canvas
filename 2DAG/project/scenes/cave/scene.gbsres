@@ -1,31 +1,23 @@
 {
   "_resourceType": "scene",
-  "id": "5e64882f-8ce6-423e-b582-70fdb2142ff6",
-  "_index": 0,
-  "type": "TOPDOWN",
+  "id": "91bc6fb6-953b-48fa-a683-2e36df503375",
+  "_index": 5,
   "name": "Cave",
-  "symbol": "scene_cave",
-  "x": 616,
-  "y": 30,
-  "width": 20,
-  "height": 18,
-  "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+  "backgroundId": "cf0711ac-8823-4ff7-a6bf-df42200d6948",
   "tilesetId": "",
+  "width": 32,
+  "height": 36,
+  "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
+  "collisions": "0016d+0f4+008+0f4+0010+0f!002+0f!008+0f!002+0f!0010+0f!002+0f!008+0f!002+0f!0010+0f!002+0f!008+0f!002+0f!0010+0f!002+0f!008+0f!002+0f!0010+0f!002+0f!00!0f6+00!0f!002+0f!0010+0f!002+0f3+004+0f3+002+0f!0010+0f!00e+0f!003+0fe+00e+0f4+00100+0f20+00e0+",
   "autoFadeSpeed": 1,
-  "script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
-      },
-      "id": "73600b38-1b67-4b91-920e-b97faa41ed65"
-    }
-  ],
+  "symbol": "scene_6",
+  "x": 728,
+  "y": 280,
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [],
-  "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!008+"
+  "playerHit3Script": []
 }

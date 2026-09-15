@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "fbd96258-bc39-433e-a299-51a56011f5e3",
+  "name": "startroom",
+  "symbol": "bg_startroom",
+  "tileColors": "",
+  "filename": "startroom.png",
+  "width": 20,
+  "height": 24,
+  "imageWidth": 160,
+  "imageHeight": 192
+}

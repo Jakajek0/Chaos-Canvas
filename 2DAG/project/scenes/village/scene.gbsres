@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "bf2df316-4fce-4afc-82e7-970467053a1a",
+  "_index": 3,
+  "name": "Village",
+  "backgroundId": "e5e4cd01-1c3d-4f16-a067-fe9fa104082e",
+  "tilesetId": "",
+  "width": 36,
+  "height": 36,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "007b+0fe+0016+0f!00c+0f!0016+0f!00c+0f!0016+0f!00c+0f!0016+0f!00c+0f!0016+0f!00c+0f!0016+0f!00c+0f!0016+0f!00c+0f!0016+0f!00c+0f!0016+0f5+004+0f5+0012+0f9+004+0f9+00e+0f!0014+0f!00e+0f!0014+0f!00e+0f!0014+0f!00e+0f!0014+0f!00e+0f!0014+0f!003+0fc+0014+0f4+00120+0fc+0014+0f4+00b+0f!0014+0f!00e+0f!0014+0f!00e+0f!0014+0f!00e+0f16+006f+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 432,
+  "y": 280,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
