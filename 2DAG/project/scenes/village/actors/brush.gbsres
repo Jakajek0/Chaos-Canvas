@@ -27,6 +27,14 @@
       "id": "aada2329-a1cd-4f30-8301-5619bd898498"
     },
     {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "2d4c78e8-46be-4d3e-bfa7-34e46970cd81"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -34,395 +42,899 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_ACTIVATE",
+            "command": "EVENT_IF",
             "args": {
-              "actorId": "$self$",
-              "__collapse": true
-            },
-            "id": "fd7b7769-e110-4658-8673-1ce8c25435b3"
-          },
-          {
-            "command": "EVENT_ACTOR_ACTIVATE",
-            "args": {
-              "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
-              "__collapse": true
-            },
-            "id": "c8a52c33-e10f-437d-b584-0d9aea5e5588"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_POSITION",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "property",
-                "target": "player",
-                "property": "pxpos"
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "15"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
               },
-              "y": {
-                "type": "property",
-                "target": "player",
-                "property": "pypos"
-              },
-              "__collapse": true,
-              "units": "pixels"
-            },
-            "id": "e4738f02-bb4b-47fd-b4de-7ca07f1a3533"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_POSITION",
-            "args": {
-              "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
-              "x": {
-                "type": "property",
-                "target": "1685148b-5f0e-431e-bd0e-873b9fb5982d",
-                "property": "pxpos"
-              },
-              "y": {
-                "type": "property",
-                "target": "1685148b-5f0e-431e-bd0e-873b9fb5982d",
-                "property": "pypos"
-              },
-              "__collapse": true,
-              "units": "pixels"
-            },
-            "id": "61ada944-ff76-4d02-9c37-5418be87c7c9"
-          },
-          {
-            "command": "EVENT_IF_ACTOR_DIRECTION",
-            "args": {
-              "actorId": "player",
-              "direction": {
-                "type": "direction",
-                "value": "up"
-              },
-              "__collapseElse": true,
-              "__collapse": true
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true": [
                 {
-                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "command": "EVENT_ACTOR_ACTIVATE",
                   "args": {
                     "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "019bf4dc-02eb-4ec7-ae15-eb68a6fb3b2e"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "pxpos"
+                    },
+                    "y": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "pypos"
+                    },
+                    "__collapse": true,
+                    "units": "pixels"
+                  },
+                  "id": "04138b03-b92b-4185-8abb-f13c3b57377a"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "x": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "pxpos"
+                    },
+                    "y": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "pypos"
+                    },
+                    "units": "pixels",
+                    "__collapse": true
+                  },
+                  "id": "4f149041-9ecf-4dbc-9777-389f08daf0c1"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "args": {
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "units": "pixels",
+                    "__collapse": true
+                  },
+                  "id": "134f74e9-cbb6-4633-940a-227109947e5c"
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
+                  "args": {
+                    "actorId": "player",
                     "direction": {
                       "type": "direction",
                       "value": "up"
                     },
+                    "__collapseElse": true,
                     "__collapse": true
                   },
-                  "id": "933b397d-45be-473c-ae4f-00b1e7a00a89"
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "$self$",
+                          "direction": {
+                            "type": "direction",
+                            "value": "up"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "e044de88-e0a1-4e94-aef6-97b89b47525e"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": -8
+                          },
+                          "units": "pixels",
+                          "__collapse": true,
+                          "__comment": false
+                        },
+                        "id": "d0c509c1-9623-4ceb-89aa-6928f4c7bae6"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "fc13a599-9d39-4a88-beb8-112d0d10f00a"
                 },
                 {
-                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
                   "args": {
-                    "actorId": "$self$",
-                    "x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": -8
-                    },
-                    "units": "pixels",
-                    "__collapse": true,
-                    "__comment": false
-                  },
-                  "id": "8335e65e-36c9-480b-9228-dc368489cc2b"
-                },
-                {
-                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
-                  "args": {
-                    "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
-                    "x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": -24
-                    },
-                    "units": "pixels",
-                    "__collapse": true,
-                    "__comment": false
-                  },
-                  "id": "4fa6ba0b-a1c9-43de-961a-5a7ee9b3da49"
-                }
-              ],
-              "false": []
-            },
-            "id": "5819be7b-25be-478e-923e-705878da560d"
-          },
-          {
-            "command": "EVENT_IF_ACTOR_DIRECTION",
-            "args": {
-              "actorId": "player",
-              "direction": {
-                "type": "direction",
-                "value": "left"
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_ACTOR_SET_DIRECTION",
-                  "args": {
-                    "actorId": "$self$",
+                    "actorId": "player",
                     "direction": {
                       "type": "direction",
                       "value": "left"
                     },
+                    "__collapseElse": true,
                     "__collapse": true
                   },
-                  "id": "12e85bde-6265-4643-bee1-9ec317b7e35f"
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "$self$",
+                          "direction": {
+                            "type": "direction",
+                            "value": "left"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "61ae6fb4-3961-4e0f-b981-a068977d72f5"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": -14
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 4
+                          },
+                          "__collapse": true,
+                          "units": "pixels"
+                        },
+                        "id": "5d2a258f-6553-4dc0-aca3-1a2710cabb4a"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "91ccf37e-44f0-41a3-b344-5318da299ca6"
                 },
                 {
-                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
                   "args": {
-                    "actorId": "$self$",
-                    "x": {
-                      "type": "number",
-                      "value": -14
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 4
-                    },
-                    "__collapse": true,
-                    "units": "pixels"
-                  },
-                  "id": "479f6327-5af4-4564-8980-f5c753a1e22a"
-                },
-                {
-                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
-                  "args": {
-                    "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
-                    "x": {
-                      "type": "number",
-                      "value": -31
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "__collapse": true,
-                    "units": "pixels"
-                  },
-                  "id": "4d181d86-0393-4bfc-90c2-679851c47377"
-                }
-              ],
-              "false": []
-            },
-            "id": "5d0aeca3-3d48-438c-9be7-8374ad90faf3"
-          },
-          {
-            "command": "EVENT_IF_ACTOR_DIRECTION",
-            "args": {
-              "actorId": "player",
-              "direction": {
-                "type": "direction",
-                "value": "down"
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_ACTOR_SET_DIRECTION",
-                  "args": {
-                    "actorId": "$self$",
+                    "actorId": "player",
                     "direction": {
                       "type": "direction",
                       "value": "down"
                     },
+                    "__collapseElse": true,
                     "__collapse": true
                   },
-                  "id": "77bcf9da-f997-4c62-b638-9d273be9de7a"
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "$self$",
+                          "direction": {
+                            "type": "direction",
+                            "value": "down"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "ba9ef85b-2793-4f02-a810-4c93061822c0"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 14
+                          },
+                          "__collapse": true,
+                          "units": "pixels"
+                        },
+                        "id": "b55292c6-ef27-492e-85a2-e24cefc8c2a5"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "bc97cd51-3b14-4090-9410-159e5a85e349"
                 },
                 {
-                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
                   "args": {
-                    "actorId": "$self$",
-                    "x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 14
-                    },
-                    "__collapse": true,
-                    "units": "pixels"
-                  },
-                  "id": "f1b396e8-b936-4b69-8028-d4d6688925ea"
-                },
-                {
-                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
-                  "args": {
-                    "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
-                    "x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 31
-                    },
-                    "__collapse": true,
-                    "units": "pixels"
-                  },
-                  "id": "6d39b4fb-b666-4ac7-8d90-45e276fe0fd2"
-                }
-              ],
-              "false": []
-            },
-            "id": "d7ab247c-b320-477b-b98d-2507195e792b"
-          },
-          {
-            "command": "EVENT_IF_ACTOR_DIRECTION",
-            "args": {
-              "actorId": "player",
-              "direction": {
-                "type": "direction",
-                "value": "right"
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_ACTOR_SET_DIRECTION",
-                  "args": {
-                    "actorId": "$self$",
+                    "actorId": "player",
                     "direction": {
                       "type": "direction",
                       "value": "right"
                     },
+                    "__collapseElse": true,
                     "__collapse": true
                   },
-                  "id": "8f8a5573-58f3-4253-8240-4e58848b2359"
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "$self$",
+                          "direction": {
+                            "type": "direction",
+                            "value": "right"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "56c3a89c-5e49-41e7-8573-31bd32b906c4"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": 14
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 4
+                          },
+                          "__collapse": true,
+                          "units": "pixels"
+                        },
+                        "id": "bb8cfd4d-2a10-44a5-a58f-ded3a5228bde"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "2832025d-b72e-4c3b-8682-78d9445c6f9b"
+                },
+                {
+                  "command": "EVENT_ACTOR_EFFECTS",
+                  "args": {
+                    "effect": "splitIn",
+                    "actorId": "$self$",
+                    "distance": 2,
+                    "speed": 2,
+                    "time": 0.5,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "06e35014-5945-4052-8e18-e7e0c35efd34"
+                },
+                {
+                  "command": "EVENT_ACTOR_EFFECTS",
+                  "args": {
+                    "effect": "splitOut",
+                    "actorId": "$self$",
+                    "distance": 2,
+                    "speed": 2,
+                    "time": 0.5,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "0e73d0f5-1282-4367-aea8-04e407568e9d"
+                },
+                {
+                  "command": "EVENT_ACTOR_ACTIVATE",
+                  "args": {
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "__collapse": true
+                  },
+                  "id": "16d104c1-c4a6-4aad-bba2-f55487e1f2cf"
+                },
+                {
+                  "command": "EVENT_ACTOR_EFFECTS",
+                  "args": {
+                    "effect": "flicker",
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "distance": 20,
+                    "speed": 2,
+                    "time": 0.2,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "1476a486-b8d5-4eed-bebc-8f80556a7c13"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true,
+                    "__comment": false
+                  },
+                  "id": "a9be3e50-f306-4cc7-a25e-927a5f6a2b80"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.5
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "00245edc-1513-4a80-854d-43070061ea7f"
+                },
+                {
+                  "command": "EVENT_ACTOR_EFFECTS",
+                  "args": {
+                    "effect": "flicker",
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "distance": 20,
+                    "speed": 2,
+                    "time": 0.2,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "1c689a0b-6af3-4c46-aae4-430b79803879"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "__collapse": true
+                  },
+                  "id": "b2be2ac4-f7da-495f-a211-0415fd2407ca"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "x": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "pxpos"
+                    },
+                    "y": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "pypos"
+                    },
+                    "units": "pixels",
+                    "__collapse": true
+                  },
+                  "id": "a3c3334a-86ba-404d-b252-e2fd95febfaa"
                 },
                 {
                   "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                   "args": {
-                    "actorId": "$self$",
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
                     "x": {
                       "type": "number",
-                      "value": 14
+                      "value": 16
                     },
                     "y": {
                       "type": "number",
-                      "value": 4
+                      "value": 16
+                    },
+                    "units": "pixels",
+                    "__collapse": true
+                  },
+                  "id": "758d5650-91bc-4dee-9c36-3bda296c2ffa"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "15",
+                    "value": {
+                      "type": "sub",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "15"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "__collapse": true
+                  },
+                  "id": "9c029018-e183-4f13-8b25-78add48afeb8"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_FRAME",
+                  "args": {
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "frame": {
+                      "type": "variable",
+                      "value": "15"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "85e660e2-1c93-44d8-b211-90c5eb5e4483"
+                },
+                {
+                  "command": "EVENT_ACTOR_ACTIVATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "7ac979ae-2f84-4549-a5b5-93f9dbd69f48"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "pxpos"
+                    },
+                    "y": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "pypos"
                     },
                     "__collapse": true,
                     "units": "pixels"
                   },
-                  "id": "28da5a39-c58c-4643-b6f5-5896915b0420"
+                  "id": "744ac7de-38ef-4bd1-afcb-d64264f5612b"
                 },
                 {
-                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+                    "x": {
+                      "type": "property",
+                      "target": "1685148b-5f0e-431e-bd0e-873b9fb5982d",
+                      "property": "pxpos"
+                    },
+                    "y": {
+                      "type": "property",
+                      "target": "1685148b-5f0e-431e-bd0e-873b9fb5982d",
+                      "property": "pypos"
+                    },
+                    "__collapse": true,
+                    "units": "pixels"
+                  },
+                  "id": "2e3eec39-bb6c-4320-a21f-bb1104ce6705"
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "up"
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "$self$",
+                          "direction": {
+                            "type": "direction",
+                            "value": "up"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "e5281a93-fcb2-425f-b264-66ae82674534"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": -8
+                          },
+                          "units": "pixels",
+                          "__collapse": true,
+                          "__comment": false
+                        },
+                        "id": "d74bc0ae-fc06-43cf-8b14-183928653fe6"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+                          "x": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": -24
+                          },
+                          "units": "pixels",
+                          "__collapse": true,
+                          "__comment": false
+                        },
+                        "id": "21141303-c928-4d38-aefc-d39a274afb7d"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "ddbd825a-3b58-47b5-9b9e-9da0c6331907"
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "left"
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "$self$",
+                          "direction": {
+                            "type": "direction",
+                            "value": "left"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "e0d06e71-3eac-421c-a76b-372999931dc8"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": -14
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 4
+                          },
+                          "__collapse": true,
+                          "units": "pixels"
+                        },
+                        "id": "364c6c10-5628-4580-ba51-4ce6a3d87e14"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+                          "x": {
+                            "type": "number",
+                            "value": -31
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "__collapse": true,
+                          "units": "pixels"
+                        },
+                        "id": "7d05d473-374d-49cb-9098-92d28b2a26f3"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "0416908b-d5ab-4132-8266-80018dd7a93b"
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "$self$",
+                          "direction": {
+                            "type": "direction",
+                            "value": "down"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "19451aa9-75d3-4bab-8fa1-eb727a0408e9"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 14
+                          },
+                          "__collapse": true,
+                          "units": "pixels"
+                        },
+                        "id": "c2e07b72-44e4-4f38-ad57-44e9cc31cc58"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+                          "x": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 31
+                          },
+                          "__collapse": true,
+                          "units": "pixels"
+                        },
+                        "id": "3823d152-e8f6-4b51-bedb-95d77d76a8df"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "79ad902e-d13d-4654-80fb-d5e9baf86645"
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "right"
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "$self$",
+                          "direction": {
+                            "type": "direction",
+                            "value": "right"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "d451ec8c-4b86-4955-9a09-fcb3975570c2"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": 14
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 4
+                          },
+                          "__collapse": true,
+                          "units": "pixels"
+                        },
+                        "id": "efddf3c5-b2bd-4b4d-a956-d7bf895a9978"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                        "args": {
+                          "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+                          "x": {
+                            "type": "number",
+                            "value": 31
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "__collapse": true,
+                          "units": "pixels"
+                        },
+                        "id": "ce0ea970-f716-40fd-a166-b13fd4fe1b01"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "a1d86445-4506-4364-b973-2b95c45c4f05"
+                },
+                {
+                  "command": "EVENT_ACTOR_ACTIVATE",
+                  "args": {
+                    "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+                    "__collapse": true
+                  },
+                  "id": "956bc0f1-3543-4d1d-8d9c-f33e80329322"
+                },
+                {
+                  "command": "EVENT_ACTOR_EFFECTS",
+                  "args": {
+                    "effect": "splitIn",
+                    "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+                    "distance": 8,
+                    "speed": 3,
+                    "time": 0.5,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "0608b262-72f2-45ef-8b38-3f088e117a83"
+                },
+                {
+                  "command": "EVENT_ACTOR_EFFECTS",
+                  "args": {
+                    "effect": "splitIn",
+                    "actorId": "$self$",
+                    "distance": 2,
+                    "speed": 2,
+                    "time": 0.5,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "5075738a-e574-46ee-8ced-0e8e43fc2982"
+                },
+                {
+                  "command": "EVENT_ACTOR_EFFECTS",
+                  "args": {
+                    "effect": "splitOut",
+                    "actorId": "$self$",
+                    "distance": 2,
+                    "speed": 2,
+                    "time": 0.5,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "5d79a89a-fd87-4037-bf3f-a7f1323ccfe9"
+                },
+                {
+                  "command": "EVENT_ACTOR_ACTIVATE",
+                  "args": {
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "__collapse": true
+                  },
+                  "id": "ac452954-a3e2-49f8-9b69-f20d36d5d553"
+                },
+                {
+                  "command": "EVENT_ACTOR_EFFECTS",
+                  "args": {
+                    "effect": "flicker",
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "distance": 20,
+                    "speed": 2,
+                    "time": 0.2,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "881e58e8-24eb-4f01-bc52-63fdb68bc8e3"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true,
+                    "__comment": false
+                  },
+                  "id": "e8eb0a9b-db35-48be-a110-cfc4fd5a7d91"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.5
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "374f8d9a-4bcd-468a-9f2c-6da04b22694b"
+                },
+                {
+                  "command": "EVENT_ACTOR_EFFECTS",
+                  "args": {
+                    "effect": "flicker",
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "distance": 20,
+                    "speed": 2,
+                    "time": 0.2,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "956dba41-0b21-4a7a-88b1-286d3232dbc4"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "__collapse": true
+                  },
+                  "id": "a6c77ecd-da67-4ac4-ba63-31701b5e3722"
+                },
+                {
+                  "command": "EVENT_ACTOR_EFFECTS",
+                  "args": {
+                    "effect": "splitOut",
+                    "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+                    "distance": 2,
+                    "speed": 1,
+                    "time": 0.5,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "93eab3f8-55d6-4f3b-9578-668a49cab289"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+                    "__collapse": true,
+                    "__comment": false
+                  },
+                  "id": "14037cb4-54c9-4005-821f-218af5a2445f"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
                   "args": {
                     "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
                     "x": {
                       "type": "number",
-                      "value": 31
+                      "value": 0
                     },
                     "y": {
                       "type": "number",
                       "value": 0
-                    },
-                    "__collapse": true,
-                    "units": "pixels"
+                    }
                   },
-                  "id": "86450be5-8bc3-4a3b-9de9-a126b90f89f5"
+                  "id": "fec31c40-fdf9-4e09-9bd9-36a75f94cd2f"
                 }
-              ],
-              "false": []
+              ]
             },
-            "id": "f349845a-a4b1-4c7f-82cb-419c410eeee0"
-          },
-          {
-            "command": "EVENT_ACTOR_EFFECTS",
-            "args": {
-              "effect": "splitIn",
-              "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
-              "distance": 8,
-              "speed": 3,
-              "time": 0.5,
-              "frames": 30,
-              "__collapse": true
-            },
-            "id": "1518a3a4-744d-45c7-a0bf-52b3de5171c3"
-          },
-          {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": {
-                "type": "number",
-                "value": 0.25
-              },
-              "frames": {
-                "type": "number",
-                "value": 1
-              },
-              "__collapse": true
-            },
-            "id": "53f2859b-0ef2-4886-bbea-45f94107a616"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "$self$",
-              "__collapse": true,
-              "__comment": false
-            },
-            "id": "a1f65c29-a73d-40a6-af28-8285a8adbcc8"
-          },
-          {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": {
-                "type": "number",
-                "value": 0.5
-              },
-              "frames": {
-                "type": "number",
-                "value": 1
-              },
-              "__collapse": true
-            },
-            "id": "a095e780-7020-4642-a98a-55987eccc34c"
-          },
-          {
-            "command": "EVENT_ACTOR_EFFECTS",
-            "args": {
-              "effect": "splitOut",
-              "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
-              "distance": 2,
-              "speed": 1,
-              "time": 0.5,
-              "frames": 30,
-              "__collapse": true
-            },
-            "id": "4efd9aab-30ee-4d23-a2f8-a64eb57dc421"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
-              "__collapse": true,
-              "__comment": false
-            },
-            "id": "6452a959-836d-49ab-8f4c-534a16164c39"
+            "id": "4ae4a8a0-4320-44dd-a581-bfce46eced77"
           }
         ]
       },
@@ -436,5 +948,5 @@
   "coordinateType": "tiles",
   "x": 10,
   "y": 21,
-  "_index": 1
+  "_index": 0
 }
