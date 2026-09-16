@@ -92,6 +92,11 @@
       "symbol": "var_yposition"
     },
     {
+      "id": "18",
+      "name": "Variable 18",
+      "symbol": "var_variable_18"
+    },
+    {
       "id": "d8200245-5aa1-4e8b-aa30-1a13bd2a9e1a__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -100,11 +105,6 @@
       "id": "fc139bcd-a16b-4151-a9de-7b7e88e437d6__L0",
       "name": "Local 0",
       "symbol": "var_local_2"
-    },
-    {
-      "id": "18",
-      "name": "Variable 18",
-      "symbol": "var_variable_18"
     },
     {
       "id": "1685148b-5f0e-431e-bd0e-873b9fb5982d__L0",
