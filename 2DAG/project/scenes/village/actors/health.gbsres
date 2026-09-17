@@ -1,21 +1,21 @@
 {
   "_resourceType": "actor",
-  "id": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
-  "name": "Charge",
+  "id": "e4b00c22-95a5-4165-b23c-7bbf0e49c462",
+  "name": "Health",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "06793571-2c86-4421-aedd-d6d1b7fb910c",
+  "spriteSheetId": "4dae95e9-6af0-4b54-b567-e611085f141d",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 255,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_0",
+  "symbol": "actor_5",
   "script": [],
   "startScript": [
     {
@@ -24,7 +24,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "41467c39-8667-4cb0-8a97-33aba1214079"
+      "id": "4c2210f0-2fc2-421c-9347-151249050262"
     },
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -32,7 +32,16 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "16d6514d-d665-4188-a95a-32b642702bdc"
+      "id": "7845f3c9-aa8f-4e2b-ad7f-ff2c981fc361"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255,
+        "__collapse": true
+      },
+      "id": "b7b60598-2016-4916-9daa-dd7fc891007b"
     }
   ],
   "updateScript": [],
@@ -41,6 +50,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 5,
-  "y": 3,
-  "_index": 2
+  "y": 6,
+  "_index": 4
 }

@@ -1,38 +1,30 @@
 {
   "_resourceType": "actor",
-  "id": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
-  "name": "Charge",
+  "id": "b353663f-78bd-42c1-9e64-85c11ed431e4",
+  "name": "Puddle",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "06793571-2c86-4421-aedd-d6d1b7fb910c",
+  "spriteSheetId": "5a34e8e9-a1db-473a-8d47-d59b82fd4e23",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 255,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_0",
+  "symbol": "actor_4",
   "script": [],
   "startScript": [
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "41467c39-8667-4cb0-8a97-33aba1214079"
-    },
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "16d6514d-d665-4188-a95a-32b642702bdc"
+      "id": "7f74fb60-5039-4727-9991-d29181acd1c9"
     }
   ],
   "updateScript": [],
@@ -40,7 +32,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 3,
-  "_index": 2
+  "x": 9,
+  "y": 9,
+  "_index": 0
 }

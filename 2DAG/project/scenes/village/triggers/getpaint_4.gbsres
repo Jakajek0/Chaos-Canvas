@@ -1,0 +1,15 @@
+{
+  "_resourceType": "trigger",
+  "id": "170f154d-a2e5-4d02-b2db-798d362bf490",
+  "name": "GetPaint",
+  "prefabId": "",
+  "x": 23,
+  "y": 12,
+  "symbol": "trigger_69",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 19
+}

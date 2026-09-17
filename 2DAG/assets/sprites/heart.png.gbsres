@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "16c22de6-49ac-4325-ba5e-0826fb22002d",
+  "name": "heart",
+  "symbol": "sprite_heart",
+  "states": [
+    {
+      "id": "6f910c12-4b4a-4206-a67f-9eb4e10b0b0b",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "c16468d7-72b5-4c09-9724-11343b605a23",
+          "frames": [
+            {
+              "id": "39257041-c255-42a3-ad05-a6c476a46cda",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "86f77fd7-b7ea-40dd-b4f3-e2f2102b52ab",
+          "frames": [
+            {
+              "id": "04014ed3-c2c3-4f04-b3a9-5c9d13f12759",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e024f1da-9763-4365-ad02-42bb24384bc2",
+          "frames": [
+            {
+              "id": "68d9c635-1f6b-4f31-86f0-5988765652be",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8beff5e7-be58-4a1a-9d30-b34a431a4071",
+          "frames": [
+            {
+              "id": "3add4ee5-ffc2-4b22-b35c-6d966b3bbce0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "78408c7c-891f-44a7-8c06-8a8a0ac5b710",
+          "frames": [
+            {
+              "id": "ccf35efd-96eb-496b-9d25-e11b594c3e68",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c948343d-23d9-415b-9c63-b191129221cf",
+          "frames": [
+            {
+              "id": "78847117-3c9b-44ad-b8e4-c3a43d10738b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "09f27f28-993f-4868-a8bf-eda76a1933d6",
+          "frames": [
+            {
+              "id": "e51d13af-0003-4847-859d-63ffcd41d7cd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a41a2e52-e572-4868-ae93-6f3ed254e155",
+          "frames": [
+            {
+              "id": "68c70a04-4619-4f6e-8b40-623b76c3846f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "heart.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "2a9db6037296df3fb244bca5a31906489c61a7df"
+}

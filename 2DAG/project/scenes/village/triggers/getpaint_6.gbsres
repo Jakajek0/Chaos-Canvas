@@ -1,0 +1,38 @@
+{
+  "_resourceType": "trigger",
+  "id": "b6743efe-acad-45c3-9b55-c5e73e05ac11",
+  "name": "GetPaint",
+  "prefabId": "",
+  "x": 24,
+  "y": 11,
+  "symbol": "trigger_71",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "18",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "ac42b9ae-1524-465b-a607-e17518d6d781"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "18",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "9d93f245-033c-498f-aca0-b23e6435a4d8"
+    }
+  ],
+  "_index": 21
+}

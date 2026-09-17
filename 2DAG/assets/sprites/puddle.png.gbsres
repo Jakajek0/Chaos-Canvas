@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "5a34e8e9-a1db-473a-8d47-d59b82fd4e23",
+  "name": "puddle",
+  "symbol": "sprite_puddle",
+  "states": [
+    {
+      "id": "819ddcbd-6730-411a-ba81-041270e38802",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "0ca9b191-83e7-4dcc-8a07-a4250cb64f25",
+          "frames": [
+            {
+              "id": "eaf3dbb4-c30d-44ee-a984-0582bc1162e2",
+              "tiles": [
+                {
+                  "id": "c5054522-9b7a-4133-9e38-65dfbb9ce7d3",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "7500fdba-8ce9-4211-912f-d468f476ccfd",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "857fff69-fce3-4817-b6b3-e65b05d96da4",
+          "frames": [
+            {
+              "id": "db8cddbe-431d-4ca2-b57b-8485a7fe4436",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9a8ff939-dd93-4b88-8abb-fc4bfcd6a8af",
+          "frames": [
+            {
+              "id": "d156b64f-90e5-43d4-b0b3-0bf0b8455b7b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b03389e5-8084-4642-b609-73c3e242d4c1",
+          "frames": [
+            {
+              "id": "66a17697-3501-403a-a124-4e661762f713",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1429c614-be0a-426c-aab6-b0a666216d8c",
+          "frames": [
+            {
+              "id": "3118c9f9-e11d-4bfe-807e-2fd53b57c54f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3515c993-eade-4315-a851-a8078c5fc629",
+          "frames": [
+            {
+              "id": "3e68e3e7-2fe9-4a19-b1b0-461c1e43b454",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "547c77d1-e2fb-4fbc-a200-479f3de59e11",
+          "frames": [
+            {
+              "id": "e2987d33-e254-4c49-9c06-54f4f2f44b13",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ad18def7-d003-46e4-bb76-62a1e51bf1cf",
+          "frames": [
+            {
+              "id": "42c04c62-996f-475c-97c6-9506568c4311",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "puddle.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "e1cc3dacd96295e79c039fdeb9b8a0d5c38c4ede"
+}

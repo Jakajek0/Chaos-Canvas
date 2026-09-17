@@ -1,21 +1,21 @@
 {
   "_resourceType": "actor",
-  "id": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
-  "name": "Charge",
+  "id": "e8c66279-94b1-405c-9a12-cd648e1df420",
+  "name": "Paint",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "06793571-2c86-4421-aedd-d6d1b7fb910c",
+  "spriteSheetId": "6e7c8e9c-5bc5-4360-90c9-727523ab5d19",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 255,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "2",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_0",
+  "symbol": "actor_3",
   "script": [],
   "startScript": [
     {
@@ -24,15 +24,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "41467c39-8667-4cb0-8a97-33aba1214079"
-    },
-    {
-      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "16d6514d-d665-4188-a95a-32b642702bdc"
+      "id": "9b688cd3-08b0-42e8-974e-8fcf3a6a78c9"
     }
   ],
   "updateScript": [],
@@ -40,7 +32,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 3,
+  "x": 6,
+  "y": 24,
   "_index": 2
 }
