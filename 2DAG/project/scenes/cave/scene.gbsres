@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "91bc6fb6-953b-48fa-a683-2e36df503375",
-  "_index": 5,
+  "_index": 4,
   "name": "Cave",
   "backgroundId": "cf0711ac-8823-4ff7-a6bf-df42200d6948",
   "tilesetId": "",
@@ -15,7 +15,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
   "x": 728,
-  "y": 280,
+  "y": 776,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],

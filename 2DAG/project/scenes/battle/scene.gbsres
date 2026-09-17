@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "dc8a9793-c32f-43ca-8697-488d32e74b35",
+  "_index": 6,
+  "name": "Battle",
+  "backgroundId": "8d615a62-d15f-4cf4-910f-2065eb4a5a6f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 42,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f7+004+0f7+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!00!0f2+0010+0f!0013+0f!0013+0f!0013+0f!0013+0f!00!0f2+0010+0f!002+0f!0010+0f!002+0f12+008d+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 1368,
+  "y": 728,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

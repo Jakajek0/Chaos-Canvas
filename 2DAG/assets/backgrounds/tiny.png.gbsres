@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4db0bc09-ee03-4e44-b8d3-1504284b02ca",
+  "name": "tiny",
+  "symbol": "bg_tiny",
+  "tileColors": "",
+  "filename": "tiny.png",
+  "width": 12,
+  "height": 12,
+  "imageWidth": 96,
+  "imageHeight": 96
+}

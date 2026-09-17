@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "c0e8a0a1-006f-4a03-9cfd-5e07c22994ca",
-  "_index": 4,
+  "_index": 3,
   "name": "Start",
   "backgroundId": "fbd96258-bc39-433e-a299-51a56011f5e3",
   "tilesetId": "",
@@ -15,7 +15,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
   "x": 264,
-  "y": 376,
+  "y": 872,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
