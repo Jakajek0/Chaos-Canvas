@@ -33,6 +33,18 @@
         "__collapse": true
       },
       "id": "16d6514d-d665-4188-a95a-32b642702bdc"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "variable",
+          "value": "15"
+        },
+        "__collapse": true
+      },
+      "id": "270ef58b-1885-4bee-9b2f-f90fb42c832b"
     }
   ],
   "updateScript": [],

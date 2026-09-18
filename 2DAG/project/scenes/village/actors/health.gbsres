@@ -8,7 +8,7 @@
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 255,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -33,26 +33,6 @@
         "__collapse": true
       },
       "id": "7845f3c9-aa8f-4e2b-ad7f-ff2c981fc361"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 255,
-        "__collapse": true
-      },
-      "id": "b7b60598-2016-4916-9daa-dd7fc891007b"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_FRAME",
-      "args": {
-        "actorId": "$self$",
-        "frame": {
-          "type": "number",
-          "value": 3
-        }
-      },
-      "id": "ede482fe-ddf0-4bd3-b0d2-18654c15c6f6"
     }
   ],
   "updateScript": [],

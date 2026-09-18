@@ -33,6 +33,18 @@
         "__collapse": true
       },
       "id": "78b85f5a-20c1-4e0e-8a6d-0775d53d8449"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "variable",
+          "value": "15"
+        },
+        "__collapse": true
+      },
+      "id": "d6c4c85d-9351-4763-a19f-fef518345acf"
     }
   ],
   "updateScript": [],
@@ -40,7 +52,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 9,
-  "y": 21,
+  "x": 7,
+  "y": 6,
   "_index": 1
 }

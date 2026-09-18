@@ -135,6 +135,16 @@
       "id": "348a0055-85ac-4375-b34d-00f1cf95b5a9__L0",
       "name": "enemyHealth",
       "symbol": "var_enemyhealth"
+    },
+    {
+      "id": "e248436a-74ca-4427-931b-e2fb100f2bda__L0",
+      "name": "enemyHealth",
+      "symbol": "var_enemyhealth_0"
+    },
+    {
+      "id": "21",
+      "name": "dead",
+      "symbol": "var_dead"
     }
   ],
   "constants": []

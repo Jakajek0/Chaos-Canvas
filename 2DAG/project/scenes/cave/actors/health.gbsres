@@ -1,21 +1,21 @@
 {
   "_resourceType": "actor",
-  "id": "e8c66279-94b1-405c-9a12-cd648e1df420",
-  "name": "Paint",
+  "id": "99b594fd-9f8e-414e-b176-1fb949c28fc2",
+  "name": "Health",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "6e7c8e9c-5bc5-4360-90c9-727523ab5d19",
+  "spriteSheetId": "4dae95e9-6af0-4b54-b567-e611085f141d",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 255,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "2",
+  "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_3",
+  "symbol": "actor_6",
   "script": [],
   "startScript": [
     {
@@ -24,7 +24,15 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "9b688cd3-08b0-42e8-974e-8fcf3a6a78c9"
+      "id": "d93fdafa-6cb9-4f50-bf19-0d9d8c0840f1"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "0e385b3b-335f-47ee-9f4c-b79b8a1f89ea"
     }
   ],
   "updateScript": [],
@@ -32,7 +40,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 3,
+  "x": 7,
   "y": 9,
-  "_index": 2
+  "_index": 3
 }

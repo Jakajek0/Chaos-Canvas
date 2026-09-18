@@ -475,19 +475,6 @@
                   "id": "9c029018-e183-4f13-8b25-78add48afeb8"
                 },
                 {
-                  "command": "EVENT_ACTOR_SET_FRAME",
-                  "args": {
-                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
-                    "frame": {
-                      "type": "variable",
-                      "value": "15"
-                    },
-                    "__collapse": true,
-                    "__comment": false
-                  },
-                  "id": "85e660e2-1c93-44d8-b211-90c5eb5e4483"
-                },
-                {
                   "command": "EVENT_ACTOR_ACTIVATE",
                   "args": {
                     "actorId": "$self$",
@@ -848,6 +835,19 @@
                   "id": "ac452954-a3e2-49f8-9b69-f20d36d5d553"
                 },
                 {
+                  "command": "EVENT_ACTOR_SET_FRAME",
+                  "args": {
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "frame": {
+                      "type": "variable",
+                      "value": "15"
+                    },
+                    "__collapse": true,
+                    "__comment": false
+                  },
+                  "id": "85e660e2-1c93-44d8-b211-90c5eb5e4483"
+                },
+                {
                   "command": "EVENT_ACTOR_EFFECTS",
                   "args": {
                     "effect": "flicker",
@@ -991,19 +991,6 @@
                   "id": "7e1cbd86-162e-4371-827c-1cf77b603932"
                 },
                 {
-                  "command": "EVENT_ACTOR_SET_FRAME",
-                  "args": {
-                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
-                    "frame": {
-                      "type": "number",
-                      "value": 3
-                    },
-                    "__collapse": true,
-                    "__comment": false
-                  },
-                  "id": "d5c09553-b5ff-46d9-b551-aa403b7bef46"
-                },
-                {
                   "command": "EVENT_ACTOR_ACTIVATE",
                   "args": {
                     "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
@@ -1011,6 +998,19 @@
                     "__comment": false
                   },
                   "id": "1f734cc6-9125-408e-826e-39b3bc499f06"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_FRAME",
+                  "args": {
+                    "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
+                    "frame": {
+                      "type": "variable",
+                      "value": "15"
+                    },
+                    "__collapse": true,
+                    "__comment": false
+                  },
+                  "id": "d5c09553-b5ff-46d9-b551-aa403b7bef46"
                 },
                 {
                   "command": "EVENT_ACTOR_SET_POSITION",
@@ -1133,10 +1133,10 @@
                       {
                         "command": "EVENT_ACTOR_SET_FRAME",
                         "args": {
-                          "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                          "actorId": "3a925720-1f40-43d5-b3d6-c03a09f4ba9e",
                           "frame": {
-                            "type": "number",
-                            "value": 3
+                            "type": "variable",
+                            "value": "15"
                           },
                           "__collapse": true,
                           "__comment": false
