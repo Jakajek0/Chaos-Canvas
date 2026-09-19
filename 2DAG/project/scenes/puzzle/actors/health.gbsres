@@ -1,0 +1,46 @@
+{
+  "_resourceType": "actor",
+  "id": "9cc22e93-39cd-4874-b631-d466c6b9cc14",
+  "name": "Health",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "4dae95e9-6af0-4b54-b567-e611085f141d",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_24",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "ef32f7d0-9b92-4ab5-8b3f-c15896f0ff9b"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "d8ba0f0d-b007-4eff-b1ce-74c972a8bf68"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 5,
+  "y": 4,
+  "_index": 4
+}

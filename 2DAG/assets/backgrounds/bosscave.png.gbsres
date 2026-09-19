@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "240a2321-757c-4e42-9ca9-e82337332f79",
+  "name": "bosscave",
+  "symbol": "bg_bosscave",
+  "tileColors": "",
+  "filename": "bosscave.png",
+  "width": 36,
+  "height": 32,
+  "imageWidth": 288,
+  "imageHeight": 256
+}

@@ -1,0 +1,124 @@
+{
+  "_resourceType": "actor",
+  "id": "96241af8-507e-44e2-8b0a-ba333f7e14fe",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9258b0e8-a6b0-49bc-aa2d-953c6ba173c9",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_34",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "45e19e5a-040c-4887-b9b1-94fb843fccfb",
+        "operator": "<=",
+        "distance": {
+          "type": "number",
+          "value": 1
+        },
+        "otherActorId": "$self$",
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "flicker",
+              "actorId": "$self$",
+              "distance": 20,
+              "speed": 2,
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "4c0dd336-7e76-4c27-b3d7-54402c9f42e3"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "84752be9-1c15-4215-a5f8-b47f7820dcca"
+          }
+        ],
+        "false": []
+      },
+      "id": "116f34fa-6a4f-4486-9e63-d8fde8a5cbee"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "45e19e5a-040c-4887-b9b1-94fb843fccfb",
+        "operator": "<=",
+        "distance": {
+          "type": "number",
+          "value": 2
+        },
+        "otherActorId": "$self$",
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "flicker",
+              "actorId": "$self$",
+              "distance": 20,
+              "speed": 2,
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "7b3cd524-808d-4132-8160-37a8afc43bae"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "a908037c-5b89-48f8-b308-7cfcba3b08bc"
+          }
+        ],
+        "false": []
+      },
+      "id": "813f3a58-e3e9-4847-9484-42addf2f8708"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.4
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "da6297fa-92f3-41f7-8879-fc79cc7eb530"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 28,
+  "y": 23,
+  "_index": 10
+}

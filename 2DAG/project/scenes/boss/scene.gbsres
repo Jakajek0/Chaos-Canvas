@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "e2c66926-c5ef-44b5-9e1f-ff72cdde4cc2",
+  "_index": 8,
+  "name": "Boss",
+  "backgroundId": "240a2321-757c-4e42-9ca9-e82337332f79",
+  "tilesetId": "",
+  "width": 36,
+  "height": 32,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "006f+0f1e+006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0f!001c+0f!006+0fd+004+0fd+0012+0f!004+0f!001e+0f!004+0f!001e+0f!004+0f!00f+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 696,
+  "y": 496,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

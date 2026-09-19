@@ -70,6 +70,17 @@
         "__collapse": true
       },
       "id": "6d70a142-fd3c-4d6c-bd04-bc9f457a2b23"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "21",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "a134b2c6-34be-4e4a-990d-c8788f279648"
     }
   ],
   "updateScript": [
@@ -375,6 +386,17 @@
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "21",
+                    "value": {
+                      "type": "true"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "12a2ed69-1985-4357-a3f2-1772bcd9c6d1"
+                },
                 {
                   "command": "EVENT_ACTOR_EFFECTS",
                   "args": {

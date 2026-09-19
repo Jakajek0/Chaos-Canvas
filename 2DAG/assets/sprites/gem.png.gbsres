@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "a80d0966-2495-4f8b-a0a5-02d7df38f287",
+  "name": "gem",
+  "symbol": "sprite_gem",
+  "states": [
+    {
+      "id": "cd5886ff-254e-4efc-bf14-c71943302656",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "b083a4ed-e762-4572-aa14-5de08af40d9f",
+          "frames": [
+            {
+              "id": "235bea3f-8124-480a-b251-d676f794d91a",
+              "tiles": [
+                {
+                  "id": "f4f5387e-814c-48b4-aa78-fd6bc49b81cb",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "b14e59e0-b376-411d-9fdc-e1a55436ee93",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1b22344-3ac1-4774-8e89-c8189574bd94",
+          "frames": [
+            {
+              "id": "7c886613-c016-4f04-ab93-53b705b31187",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8a54ad65-adaa-4903-9f5c-e7bb7a336af3",
+          "frames": [
+            {
+              "id": "e0dbd348-0f39-4230-a2de-07977f15f519",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "067e9425-6498-4b9d-ab2a-f6decbf7316b",
+          "frames": [
+            {
+              "id": "3b37988e-ddf9-4c95-93de-7b687208fd76",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b1dafb99-ae58-484b-8fbd-3cc597fa4d77",
+          "frames": [
+            {
+              "id": "74d7c2de-a78e-4973-b60a-3a2d1e861ada",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "760b97c1-41c1-4b7f-ab51-b50972624ec2",
+          "frames": [
+            {
+              "id": "c78ad0ac-e9a0-40a5-a91c-497d839f5167",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f7d9cedb-aa04-437e-a165-20345d2d24de",
+          "frames": [
+            {
+              "id": "feb26b27-636a-4f6a-ba5d-e8807bdd3d95",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9694b665-fbef-4419-a373-d65693a12a8d",
+          "frames": [
+            {
+              "id": "8d934148-737f-43b6-b1cd-202fd9e1cb69",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "gem.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "45d30d8178bbb8815cbc75f9fc5e05f9b0ffb75c"
+}

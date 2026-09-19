@@ -107,6 +107,11 @@
       "symbol": "var_health_0"
     },
     {
+      "id": "21",
+      "name": "dead",
+      "symbol": "var_dead"
+    },
+    {
       "id": "d8200245-5aa1-4e8b-aa30-1a13bd2a9e1a__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -142,9 +147,34 @@
       "symbol": "var_enemyhealth_0"
     },
     {
-      "id": "21",
-      "name": "dead",
-      "symbol": "var_dead"
+      "id": "c8fa6e1d-dd95-4cd8-b845-f9ee57ebc7e9__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "11dc92e1-9108-4a06-ad27-9c6c9b892a2b__L0",
+      "name": "enemyHealth",
+      "symbol": "var_enemyhealth_2"
+    },
+    {
+      "id": "0da2a12c-2b83-4038-83c3-85af944a0cbd__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "000a162e-9842-42ea-b561-4f0f0042ddc6__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "22",
+      "name": "gemGot",
+      "symbol": "var_gemgot"
+    },
+    {
+      "id": "23",
+      "name": "gemUsed",
+      "symbol": "var_gemused"
     }
   ],
   "constants": []

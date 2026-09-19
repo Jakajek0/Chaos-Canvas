@@ -1,0 +1,84 @@
+{
+  "_resourceType": "actor",
+  "id": "633f6d13-dd9b-46e9-a9ef-2a0c71b35cf9",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9258b0e8-a6b0-49bc-aa2d-953c6ba173c9",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_10",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "45e19e5a-040c-4887-b9b1-94fb843fccfb",
+        "operator": "<=",
+        "distance": {
+          "type": "number",
+          "value": 2
+        },
+        "otherActorId": "$self$",
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "flicker",
+              "actorId": "$self$",
+              "distance": 20,
+              "speed": 2,
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "2b56427f-fa26-4887-ba7b-919c888ea7f9"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "a52ffb3d-a57c-4222-955b-fcd1516faaff"
+          }
+        ],
+        "false": []
+      },
+      "id": "04ce226b-a027-4d7c-84eb-4511ba5d7ced"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.4
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "1d894775-695f-44a3-82d4-cac606c6ca6f"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 20,
+  "y": 41,
+  "_index": 0
+}

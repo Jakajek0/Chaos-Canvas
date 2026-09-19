@@ -8,7 +8,7 @@
   "symbol": "trigger_77",
   "prefabScriptOverrides": {},
   "width": 1,
-  "height": 2,
+  "height": 8,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -34,5 +34,5 @@
       "id": "de33f958-9edc-4b18-9250-daea5c7b437f"
     }
   ],
-  "_index": 16
+  "_index": 12
 }

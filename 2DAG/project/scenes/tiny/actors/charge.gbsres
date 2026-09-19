@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actor",
+  "id": "1081e91e-bf7c-4d80-99ff-ee2c94ff022f",
+  "name": "Charge",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "06793571-2c86-4421-aedd-d6d1b7fb910c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_26",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "33b69dea-003e-4c65-ad1a-94116beaad83"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "35ae7367-e135-4e9d-9215-f127640b784f"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "variable",
+          "value": "15"
+        },
+        "__collapse": true
+      },
+      "id": "9df7f181-4f07-4908-a5f1-5ed32ddb5467"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 5,
+  "y": 1,
+  "_index": 2
+}

@@ -1,0 +1,152 @@
+{
+  "_resourceType": "actor",
+  "id": "faf38257-269d-4215-b344-1e4ada3e7f11",
+  "name": "Barrier Left",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "6e30f024-b843-403e-ad23-f175db8f8b71",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_36",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "22"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "There is a barrier\nblocking the cave.",
+                "You need a GEM to\nbreak the barrier."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "60b42e2e-7ac7-4500-bb46-05524af389d8"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "23",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "4b91f46f-54c0-4fa0-b01b-8a1b292f7710"
+          }
+        ]
+      },
+      "id": "7f410559-9c8c-4c03-9a5b-d981348abb5c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "23"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "flicker",
+              "actorId": "$self$",
+              "distance": 20,
+              "speed": 2,
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "4f5e3a83-87f0-4c1b-89a9-04da1c81900f"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "52ac6204-0f75-4fa7-b680-5b1aa38a9ae1"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "GEM used!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "3f44e518-7277-4548-b5b1-0ebe32032a89"
+          }
+        ],
+        "false": []
+      },
+      "id": "483dd69e-6a2d-47c0-9f85-601107ecd0d5"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 19,
+  "y": 17,
+  "_index": 6
+}

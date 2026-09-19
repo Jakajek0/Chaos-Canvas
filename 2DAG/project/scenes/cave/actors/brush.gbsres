@@ -960,7 +960,7 @@
         "input": [
           "a"
         ],
-        "override": true,
+        "override": false,
         "__scriptTabs": "press",
         "__collapse": false
       },
@@ -1264,5 +1264,5 @@
   "coordinateType": "tiles",
   "x": 3,
   "y": 6,
-  "_index": 0
+  "_index": 2
 }
