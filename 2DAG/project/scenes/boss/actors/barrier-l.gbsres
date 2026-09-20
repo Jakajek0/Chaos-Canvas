@@ -1,0 +1,67 @@
+{
+  "_resourceType": "actor",
+  "id": "6ae6dd10-a1df-4209-bcae-186c40a6fc9c",
+  "name": "Barrier-L",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "6e30f024-b843-403e-ad23-f175db8f8b71",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_46",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "6b7b81f1-bf1f-495e-85cb-b1868514480e"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 16
+        },
+        "y": {
+          "type": "number",
+          "value": 29
+        },
+        "__collapse": true
+      },
+      "id": "c2ecff11-21a5-45f5-bec2-977df715e9d5"
+    },
+    {
+      "command": "EVENT_ACTOR_EFFECTS",
+      "args": {
+        "effect": "splitIn",
+        "actorId": "$self$",
+        "distance": 20,
+        "speed": 2,
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "165d2743-c6ed-4149-9d1b-1f4845ad4631"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 0,
+  "y": 31,
+  "_index": 0
+}

@@ -112,6 +112,16 @@
       "symbol": "var_dead"
     },
     {
+      "id": "22",
+      "name": "gemGot",
+      "symbol": "var_gemgot"
+    },
+    {
+      "id": "23",
+      "name": "gemUsed",
+      "symbol": "var_gemused"
+    },
+    {
       "id": "d8200245-5aa1-4e8b-aa30-1a13bd2a9e1a__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -167,14 +177,59 @@
       "symbol": "var_local_6"
     },
     {
-      "id": "22",
-      "name": "gemGot",
-      "symbol": "var_gemgot"
+      "id": "f7b68843-2046-48b5-a15e-1934de3c9674__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
     },
     {
-      "id": "23",
-      "name": "gemUsed",
-      "symbol": "var_gemused"
+      "id": "24",
+      "name": "inAir",
+      "symbol": "var_inair"
+    },
+    {
+      "id": "25",
+      "name": "hover",
+      "symbol": "var_hover"
+    },
+    {
+      "id": "26",
+      "name": "dead1",
+      "symbol": "var_dead1_0"
+    },
+    {
+      "id": "247db16a-828e-4d54-9b49-49f67a9df0eb__L0",
+      "name": "bossHealth",
+      "symbol": "var_bosshealth"
+    },
+    {
+      "id": "8ec6eae9-68de-47f3-93e4-b91860d26c35__L0",
+      "name": "bossHealth",
+      "symbol": "var_bosshealth_0"
+    },
+    {
+      "id": "0132797b-bf52-4c08-9d0f-ba6ae23231eb__L0",
+      "name": "enemyHealth",
+      "symbol": "var_enemyhealth_1"
+    },
+    {
+      "id": "09f2f3a5-2a3e-4625-87db-8527102d70b5__L0",
+      "name": "enemyHealth",
+      "symbol": "var_enemyhealth_3"
+    },
+    {
+      "id": "27",
+      "name": "dead2",
+      "symbol": "var_dead2"
+    },
+    {
+      "id": "28",
+      "name": "firstSpawn1",
+      "symbol": "var_firstspawn1"
+    },
+    {
+      "id": "29",
+      "name": "firstSpawn2",
+      "symbol": "var_firstspawn2"
     }
   ],
   "constants": []

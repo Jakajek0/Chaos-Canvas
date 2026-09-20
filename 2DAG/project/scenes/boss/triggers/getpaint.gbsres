@@ -16,7 +16,8 @@
         "variable": "18",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
       "id": "e6ede07d-c2ed-460e-93c8-559c3c13dbf0"
     }
