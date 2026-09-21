@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "249eea81-b28e-4b62-9507-0c441d3810e3",
-  "_index": 6,
+  "_index": 5,
   "name": "Puzzle",
   "backgroundId": "04543e7b-8e4d-43dc-8093-c92a170c85af",
   "tilesetId": "",
@@ -16,7 +16,20 @@
   "symbol": "scene_0",
   "x": 992,
   "y": 496,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "37",
+        "value": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "ba35d719-414f-49ba-956c-714209c2bab9"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

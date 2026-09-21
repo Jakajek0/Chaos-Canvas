@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "bf2df316-4fce-4afc-82e7-970467053a1a",
-  "_index": 2,
+  "_index": 1,
   "name": "Village",
   "backgroundId": "e5e4cd01-1c3d-4f16-a067-fe9fa104082e",
   "tilesetId": "",
@@ -17,6 +17,29 @@
   "x": 432,
   "y": 776,
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "37",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "02c709eb-bde5-4f45-a2d4-69db0ff9d8bb"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "35",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "198de8e0-b42f-47f0-a61d-0e4cf8a9371f"
+    },
     {
       "command": "EVENT_SET_VALUE",
       "args": {
@@ -358,23 +381,35 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_FADE_OUT",
             "args": {
-              "speed": "2"
+              "speed": 3,
+              "__collapse": true
             },
-            "id": "ab865c3b-74d1-4954-bcf6-e26925d13a68"
+            "id": "7a42c412-7d01-4cb0-a6dc-aec29c9d81fd"
           },
           {
-            "command": "EVENT_FADE_IN",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "speed": "2"
+              "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
             },
-            "id": "706ccdef-6ebc-4db4-b6cd-5bd331410f57"
+            "id": "ef85cc8a-5b20-4a42-afc7-9502f570b22b"
           }
         ],
         "false": []

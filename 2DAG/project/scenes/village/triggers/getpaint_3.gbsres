@@ -9,7 +9,31 @@
   "prefabScriptOverrides": {},
   "width": 1,
   "height": 2,
-  "script": [],
-  "leaveScript": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "18",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "70a5a56e-2ae0-42fe-a04a-d47ac5340b8b"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "18",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "b2dcb22e-15e0-4f0a-be26-0751638e3699"
+    }
+  ],
   "_index": 18
 }

@@ -245,6 +245,14 @@
                         "id": "9e56db66-3dc6-4a70-93e9-b729acf0cead"
                       },
                       {
+                        "command": "EVENT_FADE_OUT",
+                        "args": {
+                          "speed": 6,
+                          "__collapse": true
+                        },
+                        "id": "3a0734b0-b8c4-45b1-85f6-abdadf762bd6"
+                      },
+                      {
                         "command": "EVENT_CAMERA_SHAKE",
                         "args": {
                           "time": 0.25,
@@ -271,6 +279,24 @@
                           "__collapse": true
                         },
                         "id": "d9598aaf-1b85-45f0-b3c3-0a12f42306e0"
+                      },
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "4cf025a5-c46d-4fd4-8ecf-447fffa1eec5",
+                          "x": {
+                            "type": "number",
+                            "value": 21
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 23
+                          },
+                          "direction": "down",
+                          "fadeSpeed": 6,
+                          "__collapse": true
+                        },
+                        "id": "bce1e6b7-0379-470d-8476-3f9301dd3413"
                       }
                     ],
                     "false": []
@@ -293,5 +319,5 @@
   "coordinateType": "tiles",
   "x": 0,
   "y": 14,
-  "_index": 8
+  "_index": 4
 }

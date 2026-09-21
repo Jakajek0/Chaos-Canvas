@@ -1,0 +1,440 @@
+{
+  "_resourceType": "actor",
+  "id": "f8d40b7f-d121-4904-a268-e615157c2158",
+  "name": "Statue",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a0472b74-075e-4c34-83ac-cf7629aeba65",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_54",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A statue of a\npaintbrush stands\nhere. It reads:",
+          "\"At the brink of\ncollapse, a\nhuman...",
+          "descends from\nthe heavens.\"",
+          "\"The Brush of\nLiberation awaits\nfor this sole\npurpose.\""
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "020b28a1-5908-4d1a-bbb2-e75f63eca68f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "(Pull out brush?)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "19aea298-8c1c-411d-bb40-cc0c9af0f59f"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "34",
+        "trueText": "Yes",
+        "falseText": "No",
+        "__collapse": true
+      },
+      "id": "27bd7f73-386b-4adb-b5b1-02cffb68b49f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "34"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 21
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "__collapse": true
+            },
+            "id": "c71b8a73-e5fc-4a24-b10b-1aa2e93d32bc"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "player",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              },
+              "__collapse": true
+            },
+            "id": "3d660019-89b1-46d5-af05-b5ac73872841"
+          },
+          {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "splitIn",
+              "actorId": "player",
+              "distance": 5,
+              "speed": 3,
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "5d2c8684-46ee-4b7a-8c5a-24dd7a1cea47"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 0.2
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "690759dd-ef6f-493e-bad6-dbc406108f38"
+          },
+          {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "splitIn",
+              "actorId": "player",
+              "distance": 5,
+              "speed": 3,
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "7cb1d06f-99f8-4daf-80d3-12e7af3fb932"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 0.2
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "0ad5b130-9eed-4822-924b-f36d33f1aca0"
+          },
+          {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "splitIn",
+              "actorId": "player",
+              "distance": 5,
+              "speed": 3,
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "3c4f6071-0cff-467b-9644-a118cbb816b4"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 0.2
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "3093783b-e6cb-4954-9262-aa578618e8a1"
+          },
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 8
+              },
+              "__collapse": true
+            },
+            "id": "b781afcc-9eb8-4793-bdea-cc760d6d43ad"
+          },
+          {
+            "command": "EVENT_FADE_OUT",
+            "args": {
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "a66203b7-fde8-4c90-b0dc-e132cc57d3fc"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "f104def5-31e1-4266-bca6-4210899a50c2"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "cf05cc4b-3570-4a76-846b-476f3d9a0c5b",
+              "__collapse": true
+            },
+            "id": "fd023d77-f883-4b5c-9235-adf3b9861b19"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "a0e1b883-5e8a-4706-a904-ad6a1e66906b"
+          },
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": 4,
+              "__collapse": true
+            },
+            "id": "0adbadcc-121e-484d-b910-17828c6ee852"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "64b60f18-39ab-4dd6-b38e-5b7b266483e6"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "__section": "movement",
+              "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
+              "x": {
+                "type": "number",
+                "value": -1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "75ed018b-6136-4637-95cf-2a31164fed6f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "No way! We have\na chance to\ndefeat",
+                "the darkness\nafter all!"
+              ],
+              "__section": "text",
+              "avatarId": "8676fd38-e645-4dc3-93f6-bdd064f1f038",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "abe18b95-df74-4e30-b38f-c20d19819f72"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "cf05cc4b-3570-4a76-846b-476f3d9a0c5b",
+              "__collapse": true
+            },
+            "id": "b566481d-27f4-4f69-9d41-41a579fafc05"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
+              "x": {
+                "type": "number",
+                "value": 21
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "2728bd27-c460-460a-9400-7834cfaa64e1"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "00e66383-d51d-4a29-a9c4-e3ddb0676db0"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              },
+              "__collapse": true
+            },
+            "id": "059c4297-46ba-4b59-b7a4-43840fb5da88"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "(You got the\nBrush of\nLiberation!)",
+                "(Charge up paint\nfrom a nearby\nriver using \"A\",)",
+                "(Then attack the\ndarkness using\n\"B\"!)"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "33217bd7-53e3-4439-b913-c83986e55fff"
+          }
+        ],
+        "false": []
+      },
+      "id": "bb311291-91eb-4808-864b-5937113cf416"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 21,
+  "y": 6,
+  "_index": 5
+}

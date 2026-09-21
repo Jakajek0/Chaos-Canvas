@@ -36,7 +36,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "There is a barrier\nblocking the cave.",
+                "There is a barrier\nof darkness\nblocking the cave.",
                 "You need a GEM to\nbreak the barrier."
               ],
               "__section": "text",

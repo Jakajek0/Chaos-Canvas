@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "a665ebd2-4ada-469f-87af-da9ebc7af3a7",
+  "_index": 11,
+  "name": "You Win",
+  "backgroundId": "d8b52ca8-ef65-487e-8637-522c27958559",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 264,
+  "y": 488,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

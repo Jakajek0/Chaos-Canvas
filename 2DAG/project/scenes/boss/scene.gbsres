@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "e2c66926-c5ef-44b5-9e1f-ff72cdde4cc2",
-  "_index": 8,
+  "_index": 7,
   "name": "Boss",
   "backgroundId": "240a2321-757c-4e42-9ca9-e82337332f79",
   "tilesetId": "",
@@ -16,7 +16,20 @@
   "symbol": "scene_9",
   "x": 760,
   "y": 568,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "37",
+        "value": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": true
+      },
+      "id": "8e696a39-24a3-49c2-9f50-dfe4097b36d6"
+    }
+  ],
   "playerHit1Script": [
     {
       "command": "EVENT_SCRIPT_LOCK",
@@ -348,23 +361,35 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_FADE_OUT",
             "args": {
-              "speed": "2"
+              "speed": 3,
+              "__collapse": true
             },
             "id": "0717764e-e22f-4feb-b142-cfbc2780a124"
           },
           {
-            "command": "EVENT_FADE_IN",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "speed": "2"
+              "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
             },
-            "id": "a2372dba-1d8b-49dd-8094-f9bb10530b1c"
+            "id": "7c05deaa-f48c-49a2-8152-def945131b57"
           }
         ],
         "false": []

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "91bc6fb6-953b-48fa-a683-2e36df503375",
-  "_index": 4,
+  "_index": 3,
   "name": "Cave",
   "backgroundId": "cf0711ac-8823-4ff7-a6bf-df42200d6948",
   "tilesetId": "",
@@ -17,6 +17,18 @@
   "x": 728,
   "y": 776,
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "37",
+        "value": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": true
+      },
+      "id": "13cd8785-0adc-4099-8f7a-2575c4f16eba"
+    },
     {
       "command": "EVENT_SET_VALUE",
       "args": {
@@ -360,23 +372,35 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_FADE_OUT",
             "args": {
-              "speed": "2"
+              "speed": 3,
+              "__collapse": true
             },
-            "id": "c7b1d187-02e4-4246-9d7d-763c2114c201"
+            "id": "84e7de81-063d-44ec-b913-fc8c3e71591c"
           },
           {
-            "command": "EVENT_FADE_IN",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "speed": "2"
+              "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
             },
-            "id": "7f158419-5642-49e8-b0ac-257defad5ef0"
+            "id": "0137dfe1-221b-4960-9852-d39074878d12"
           }
         ],
         "false": []

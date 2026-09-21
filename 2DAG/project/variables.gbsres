@@ -152,6 +152,46 @@
       "symbol": "var_firstspawn2"
     },
     {
+      "id": "30",
+      "name": "enemyHealth1",
+      "symbol": "var_enemyhealth1"
+    },
+    {
+      "id": "31",
+      "name": "enemyHealth2",
+      "symbol": "var_enemyhealth2"
+    },
+    {
+      "id": "32",
+      "name": "taken2",
+      "symbol": "var_taken2_0"
+    },
+    {
+      "id": "33",
+      "name": "taken1",
+      "symbol": "var_taken1"
+    },
+    {
+      "id": "34",
+      "name": "gotBrush",
+      "symbol": "var_gotbrush"
+    },
+    {
+      "id": "35",
+      "name": "approached",
+      "symbol": "var_approached"
+    },
+    {
+      "id": "36",
+      "name": "bossDefeated",
+      "symbol": "var_bossdefeated"
+    },
+    {
+      "id": "37",
+      "name": "currentScene",
+      "symbol": "var_currentscene"
+    },
+    {
       "id": "d8200245-5aa1-4e8b-aa30-1a13bd2a9e1a__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -232,24 +272,19 @@
       "symbol": "var_enemyhealth_3"
     },
     {
-      "id": "30",
-      "name": "enemyHealth1",
-      "symbol": "var_enemyhealth1"
+      "id": "5ea7a69d-09ed-4b0f-9ea6-b82a3cea9a98__L0",
+      "name": "Local0",
+      "symbol": "var_local0_0"
     },
     {
-      "id": "31",
-      "name": "enemyHealth2",
-      "symbol": "var_enemyhealth2"
+      "id": "c0e8a0a1-006f-4a03-9cfd-5e07c22994ca__L0",
+      "name": "Local 0",
+      "symbol": "var_local_8"
     },
     {
-      "id": "32",
-      "name": "taken2",
-      "symbol": "var_taken2_0"
-    },
-    {
-      "id": "33",
-      "name": "taken1",
-      "symbol": "var_taken1"
+      "id": "4912bee2-387a-472f-ae4f-6679b6149517__L0",
+      "name": "retry",
+      "symbol": "var_retry_0"
     }
   ],
   "constants": []

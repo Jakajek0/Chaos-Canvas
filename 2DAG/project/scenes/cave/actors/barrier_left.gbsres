@@ -36,7 +36,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "There is a barrier\nblocking the cave.",
+                "There is a barrier\nof darkness\nblocking the cave.",
                 "You need a GEM to\nbreak the barrier."
               ],
               "__section": "text",
@@ -54,7 +54,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "60b42e2e-7ac7-4500-bb46-05524af389d8"
           }

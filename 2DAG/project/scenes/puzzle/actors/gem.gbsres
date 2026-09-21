@@ -40,7 +40,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Got GEM."
+          "Got GEM!"
         ],
         "__section": "text",
         "avatarId": "",

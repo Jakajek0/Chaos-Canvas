@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "c0e8a0a1-006f-4a03-9cfd-5e07c22994ca",
-  "_index": 3,
+  "_index": 2,
   "name": "Start",
   "backgroundId": "fbd96258-bc39-433e-a299-51a56011f5e3",
   "tilesetId": "",
@@ -17,6 +17,18 @@
   "x": 264,
   "y": 872,
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "37",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "f2e0ea1a-667d-4ffb-9e7e-8c661f4cd4d3"
+    },
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
@@ -37,7 +49,7 @@
       "args": {
         "time": {
           "type": "number",
-          "value": 4
+          "value": 3
         },
         "frames": {
           "type": "number",
@@ -48,9 +60,50 @@
       "id": "b6e73ff8-ba70-407d-bbfb-a8c057bd8868"
     },
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "What was that\nsound?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "448ee0a9-010e-4253-83b2-ef65c1996d89"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "1859087b-dd20-4160-8df4-7d64f151499d"
+    },
+    {
       "command": "EVENT_ACTOR_ACTIVATE",
       "args": {
-        "actorId": "1c0c2451-78cd-407c-9ee3-57333ab308ff",
+        "actorId": "abfbeae3-2ef2-4e63-8511-10219f5e94d5",
         "__collapse": true
       },
       "id": "92c71c85-bb4b-416f-9b10-fc825a67a854"
@@ -59,7 +112,7 @@
       "command": "EVENT_ACTOR_MOVE_TO",
       "args": {
         "__section": "movement",
-        "actorId": "1c0c2451-78cd-407c-9ee3-57333ab308ff",
+        "actorId": "abfbeae3-2ef2-4e63-8511-10219f5e94d5",
         "x": {
           "type": "number",
           "value": 9
@@ -95,7 +148,7 @@
     {
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
-        "actorId": "1c0c2451-78cd-407c-9ee3-57333ab308ff",
+        "actorId": "abfbeae3-2ef2-4e63-8511-10219f5e94d5",
         "emoteId": "2f2806af-f8a6-44fd-9d03-09a44d0059f7",
         "__collapse": true
       },
@@ -189,7 +242,7 @@
     {
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
-        "actorId": "1c0c2451-78cd-407c-9ee3-57333ab308ff",
+        "actorId": "abfbeae3-2ef2-4e63-8511-10219f5e94d5",
         "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727",
         "__collapse": true
       },
@@ -199,7 +252,7 @@
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
       "args": {
         "__section": "movement",
-        "actorId": "1c0c2451-78cd-407c-9ee3-57333ab308ff",
+        "actorId": "abfbeae3-2ef2-4e63-8511-10219f5e94d5",
         "x": {
           "type": "number",
           "value": 1
@@ -220,7 +273,7 @@
     {
       "command": "EVENT_ACTOR_SET_DIRECTION",
       "args": {
-        "actorId": "1c0c2451-78cd-407c-9ee3-57333ab308ff",
+        "actorId": "abfbeae3-2ef2-4e63-8511-10219f5e94d5",
         "direction": {
           "type": "direction",
           "value": "left"
@@ -251,7 +304,7 @@
           "Who, are you..?"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "8676fd38-e645-4dc3-93f6-bdd064f1f038",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -274,7 +327,7 @@
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
       "args": {
         "__section": "movement",
-        "actorId": "1c0c2451-78cd-407c-9ee3-57333ab308ff",
+        "actorId": "abfbeae3-2ef2-4e63-8511-10219f5e94d5",
         "x": {
           "type": "number",
           "value": -1
@@ -296,11 +349,12 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Wait, it can't be...",
-          "You look exactly\n"
+          "Wait, it can't\nbe...",
+          "By the prophecy,\nit's you!",
+          "You're here to\nsave us! Come\nwith me!"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "8676fd38-e645-4dc3-93f6-bdd064f1f038",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -315,9 +369,39 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "0d0c4489-4a76-4920-9996-aae696d75330"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "abfbeae3-2ef2-4e63-8511-10219f5e94d5",
+        "x": {
+          "type": "number",
+          "value": 19
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "__collapse": true
+      },
+      "id": "d4a2dfda-c672-45f2-be39-a8a354e23561"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "abfbeae3-2ef2-4e63-8511-10219f5e94d5",
+        "__collapse": true
+      },
+      "id": "62b12226-d096-48a5-9511-2f5bd2cca62d"
     }
   ],
   "playerHit1Script": [],
