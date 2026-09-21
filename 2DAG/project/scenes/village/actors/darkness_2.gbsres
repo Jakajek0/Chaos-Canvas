@@ -1,0 +1,84 @@
+{
+  "_resourceType": "actor",
+  "id": "cde05046-d3a4-4e44-8a9e-50ecae57b0d6",
+  "name": "Darkness",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9258b0e8-a6b0-49bc-aa2d-953c6ba173c9",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_55",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+        "operator": "<=",
+        "distance": {
+          "type": "number",
+          "value": 2
+        },
+        "otherActorId": "$self$",
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "flicker",
+              "actorId": "$self$",
+              "distance": 20,
+              "speed": 2,
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "751a33e4-c974-4a2e-9629-fab555f0c2d0"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "b1d435ea-2c70-4847-949f-67a18bdbc2b1"
+          }
+        ],
+        "false": []
+      },
+      "id": "7f8f9cf1-ae8e-4a72-934b-e479ef9c2352"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.4
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "12194ec0-abdb-4c06-9af6-20613abbbb63"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 32,
+  "y": 23,
+  "_index": 7
+}

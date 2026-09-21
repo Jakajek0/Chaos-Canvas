@@ -32,13 +32,13 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 16
+          "value": 10
         },
         "y": {
           "type": "number",
-          "value": 29
+          "value": 23
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "c2ecff11-21a5-45f5-bec2-977df715e9d5"
     },
@@ -61,7 +61,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 0,
-  "y": 31,
+  "x": 22,
+  "y": 21,
   "_index": 0
 }

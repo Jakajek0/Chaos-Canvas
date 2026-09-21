@@ -22,7 +22,7 @@
           "type": "number",
           "value": 42
         },
-        "direction": "",
+        "direction": "left",
         "fadeSpeed": "2"
       },
       "id": "727292ed-4f8f-48c9-9550-65a613c7dfc2"
