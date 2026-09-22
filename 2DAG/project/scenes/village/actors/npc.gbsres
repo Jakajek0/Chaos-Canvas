@@ -183,110 +183,129 @@
   ],
   "startScript": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "Our village is\nbeing overrun\nby darkness,",
-          "it's lagging\nthis world to\nthe brink of\ncrashing!",
-          "I have an idea\nhow you can save\nus, follow me."
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "34"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Our village is\nbeing overrun\nby darkness,",
+                "it's lagging\nthis world to\nthe brink of\ncrashing!",
+                "I have an idea\nhow you can save\nus, follow me."
+              ],
+              "__section": "text",
+              "avatarId": "8676fd38-e645-4dc3-93f6-bdd064f1f038",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "863a172f-1acd-4541-a7eb-4f575cda8208"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
+              "x": {
+                "type": "number",
+                "value": 21
+              },
+              "y": {
+                "type": "number",
+                "value": 24
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "e934565f-7da2-4ce2-bebd-eeb2b765e0ee"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
+              "x": {
+                "type": "number",
+                "value": 21
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "3cd6d2cf-3777-41a5-b74d-c074c66d89b4"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
+              "x": {
+                "type": "number",
+                "value": 24
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "f19eade0-202e-410f-8776-7a157645208e"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapse": true
+            },
+            "id": "4966e7d7-ab5e-4dff-bdab-19d712a7d4d3"
+          }
         ],
-        "__section": "text",
-        "avatarId": "8676fd38-e645-4dc3-93f6-bdd064f1f038",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
+        "false": []
       },
-      "id": "243e4255-8bd3-4dcb-b08f-934ca3fe5b26"
-    },
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "__section": "movement",
-        "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
-        "x": {
-          "type": "number",
-          "value": 21
-        },
-        "y": {
-          "type": "number",
-          "value": 24
-        },
-        "collideWith": [
-          "walls"
-        ],
-        "lockDirection": [],
-        "moveType": "horizontal",
-        "__collapse": true
-      },
-      "id": "f71608c1-70d7-49de-9700-c53e0c544ac7"
-    },
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "__section": "movement",
-        "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
-        "x": {
-          "type": "number",
-          "value": 21
-        },
-        "y": {
-          "type": "number",
-          "value": 7
-        },
-        "collideWith": [
-          "walls"
-        ],
-        "lockDirection": [],
-        "moveType": "horizontal",
-        "__collapse": true
-      },
-      "id": "454acb40-a224-4d65-bb66-546384b53ad4"
-    },
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "__section": "movement",
-        "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
-        "x": {
-          "type": "number",
-          "value": 24
-        },
-        "y": {
-          "type": "number",
-          "value": 6
-        },
-        "collideWith": [
-          "walls"
-        ],
-        "lockDirection": [],
-        "moveType": "horizontal",
-        "__collapse": true
-      },
-      "id": "2399f40a-71d7-4ed5-babc-5a483b88c68e"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_DIRECTION",
-      "args": {
-        "actorId": "7d4107db-aef0-4d06-8c82-87e0070d477f",
-        "direction": {
-          "type": "direction",
-          "value": "left"
-        },
-        "__collapse": true
-      },
-      "id": "1ef2617d-8ebf-4f85-bbf9-ef5f245063c5"
+      "id": "54320568-b589-4701-ae9e-3a8a72843f4d"
     }
   ],
   "updateScript": [],

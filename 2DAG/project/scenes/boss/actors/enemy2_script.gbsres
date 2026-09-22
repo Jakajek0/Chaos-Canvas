@@ -17,7 +17,16 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_53",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "cbc4c36d-7271-457c-a84f-003e0e766770"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_IF",

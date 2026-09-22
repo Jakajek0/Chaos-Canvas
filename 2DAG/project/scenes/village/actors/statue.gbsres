@@ -89,7 +89,8 @@
           "type": "variable",
           "value": "34"
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -103,7 +104,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 5
+                "value": 7
               },
               "__collapse": true
             },
@@ -115,7 +116,7 @@
               "actorId": "player",
               "direction": {
                 "type": "direction",
-                "value": "down"
+                "value": "up"
               },
               "__collapse": true
             },
@@ -326,7 +327,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "abe18b95-df74-4e30-b38f-c20d19819f72"
           },
@@ -399,8 +400,9 @@
             "args": {
               "text": [
                 "(You got the\nBrush of\nLiberation!)",
-                "(Charge up paint\nfrom a nearby\nriver using \"A\",)",
-                "(Then attack the\ndarkness using\n\"B\"!)"
+                "(Charge up paint\nfrom a nearby\nriver using \"Z\",)",
+                "(Then attack the\ndarkness using\n\"X\"!)",
+                ""
               ],
               "__section": "text",
               "avatarId": "",
@@ -421,6 +423,58 @@
               "__collapse": true
             },
             "id": "33217bd7-53e3-4439-b913-c83986e55fff"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You're charge\nis indicated by\n<- this icon"
+              ],
+              "__section": "text",
+              "avatarId": "5cf22e52-cf3e-47cc-9634-b867e388ee67",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f72209f7-3dae-4a92-81e2-d78f0b5c228d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Running out of\npaint looks like\n<- this"
+              ],
+              "__section": "text",
+              "avatarId": "734c8737-2e7b-4f40-8bb6-e46b93882112",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a9cb8ef0-e84b-413e-ae4b-5aa43e670310"
           }
         ],
         "false": []

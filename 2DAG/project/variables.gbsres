@@ -285,6 +285,11 @@
       "id": "4912bee2-387a-472f-ae4f-6679b6149517__L0",
       "name": "retry",
       "symbol": "var_retry_0"
+    },
+    {
+      "id": "38",
+      "name": "cutscenePlayed",
+      "symbol": "var_cutsceneplayed"
     }
   ],
   "constants": []

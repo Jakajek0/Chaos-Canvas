@@ -17,7 +17,32 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_62",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "38"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "0bceeb83-b310-4e95-bcc5-c77ed6ab5810"
+          }
+        ],
+        "false": []
+      },
+      "id": "b20e86a7-d104-4542-8ed8-25f68c92d832"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

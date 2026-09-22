@@ -907,14 +907,6 @@
                               "id": "1f6e20f3-169e-4337-84a5-5c4fed8d3f71"
                             },
                             {
-                              "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
-                              "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                              },
-                              "id": "24851982-866a-4b31-ab3b-0588a892be17"
-                            },
-                            {
                               "command": "EVENT_ACTOR_MOVE_RELATIVE",
                               "args": {
                                 "__section": "movement",
@@ -936,6 +928,14 @@
                                 "units": "pixels"
                               },
                               "id": "e2472a91-ae9a-4252-806b-376a2410b399"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+                              "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                              },
+                              "id": "24851982-866a-4b31-ab3b-0588a892be17"
                             },
                             {
                               "command": "EVENT_ACTOR_DEACTIVATE",
@@ -1017,7 +1017,7 @@
                         }
                       },
                       {
-                        "id": "fd138dd5-0198-41a8-852c-b2d835ebeea2",
+                        "id": "2b29e7df-2da5-424b-8059-3fccaeb6db63",
                         "command": "EVENT_GROUP",
                         "args": {
                           "__collapse": true,
@@ -1031,7 +1031,7 @@
                                 "actorId": "$self$",
                                 "__collapse": true
                               },
-                              "id": "c3c586f5-2a3e-4999-854b-d6023fee76cf"
+                              "id": "e4dbccd9-7a47-4cad-b232-f14db7467bdf"
                             },
                             {
                               "command": "EVENT_ACTOR_ACTIVATE",
@@ -1039,7 +1039,7 @@
                                 "actorId": "1d2ec320-c812-4755-9056-458922e06da8",
                                 "__collapse": true
                               },
-                              "id": "ed371d8a-4f1c-45bd-8ab7-4e1622bdfcca"
+                              "id": "3cf6ffe1-8642-41ee-b316-8cf53b72d7c7"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1048,7 +1048,7 @@
                                 "speed": 1,
                                 "__collapse": true
                               },
-                              "id": "d1ed73ca-98fd-4e84-b58b-97839f18350a"
+                              "id": "2b40df6f-05f4-4aa9-aa77-b684a424b8d7"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_POSITION",
@@ -1066,7 +1066,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "93e30265-917b-4c5c-89e5-e513fc17b042"
+                              "id": "0f1d6484-c962-4499-bb42-6111c5ff9a30"
                             },
                             {
                               "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -1088,7 +1088,7 @@
                                 "moveType": "horizontal",
                                 "__collapse": true
                               },
-                              "id": "d08480bc-a6c9-4b6d-b069-939418cdd40e"
+                              "id": "a8459d78-3611-455d-9548-a90aa131eced"
                             },
                             {
                               "command": "EVENT_SET_VALUE",
@@ -1099,7 +1099,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "1b5def25-67bb-43e5-a13a-17c978f023cb"
+                              "id": "a88212a6-daed-462a-859d-9ee3621e4d27"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1108,7 +1108,7 @@
                                 "speed": 6,
                                 "__collapse": true
                               },
-                              "id": "ae8f6a29-6992-465e-9a73-be84042b63f5"
+                              "id": "f6339f6a-99e2-47ec-9fc7-ae851b1e66a4"
                             },
                             {
                               "command": "EVENT_ACTOR_MOVE_TO",
@@ -1140,7 +1140,7 @@
                                 "__collapse": true,
                                 "units": "pixels"
                               },
-                              "id": "ba10a9d0-d0e6-419d-9055-10dbd553cec6"
+                              "id": "da2627ee-da05-4a40-b867-238013bc0144"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1149,7 +1149,7 @@
                                 "speed": 1,
                                 "__collapse": true
                               },
-                              "id": "fef64bf0-5de0-40f0-980a-9149007dc590"
+                              "id": "252401c4-6192-4674-80f5-a2a7c9db547c"
                             },
                             {
                               "command": "EVENT_SET_VALUE",
@@ -1160,7 +1160,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "a4bde4c2-5745-44ba-a681-18f1aa7c36f0"
+                              "id": "5ebabf66-209d-46cd-81e1-de9f26063da3"
                             },
                             {
                               "command": "EVENT_WAIT",
@@ -1175,7 +1175,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "1b303264-3eb3-4c9a-97c1-619cc337daef"
+                              "id": "048d77e9-f037-4155-8ed2-51796e4e81a6"
                             },
                             {
                               "command": "EVENT_SET_VALUE",
@@ -1186,7 +1186,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "74ecc25a-36ce-474c-a014-62b476afa889"
+                              "id": "0d08b8a6-e821-429d-86d7-446649ff9436"
                             },
                             {
                               "command": "EVENT_SET_VALUE",
@@ -1197,7 +1197,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "2691e854-dc97-4b08-820e-01b95934b33a"
+                              "id": "a66a6463-59c1-45f2-87a5-975ae1499e3b"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -1206,7 +1206,7 @@
                                 "speed": 1,
                                 "__collapse": true
                               },
-                              "id": "77c7eee1-a556-403f-97ed-e2e9fbdddc21"
+                              "id": "d5e5ebb9-a9a2-4b0b-9ae1-b0999dc9cce9"
                             },
                             {
                               "command": "EVENT_WAIT",
@@ -1221,7 +1221,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "6c959589-de95-44a0-90ec-a9c7449b28f5"
+                              "id": "065bc5c6-2fb3-456f-92c3-5eee1477efad"
                             },
                             {
                               "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -1243,7 +1243,7 @@
                                 "moveType": "horizontal",
                                 "__collapse": true
                               },
-                              "id": "d39b3b23-9dff-45c2-b78e-dd28b8d01a7a"
+                              "id": "8fd68c01-9ddb-4c13-b8da-71f1bd82e2e0"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1252,7 +1252,7 @@
                                 "speed": 2,
                                 "__collapse": true
                               },
-                              "id": "57d1f174-bffc-4497-a7c8-bfb7cea8550d"
+                              "id": "dc54e536-ed6b-4909-8f63-3c016e1a2e72"
                             },
                             {
                               "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -1274,7 +1274,7 @@
                                 "moveType": "horizontal",
                                 "__collapse": true
                               },
-                              "id": "cb52b57f-90b1-45c5-87ca-c729910a0213"
+                              "id": "8b1efe07-a3c8-4b37-a98c-ed019241d8de"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1283,15 +1283,7 @@
                                 "speed": 4,
                                 "__collapse": true
                               },
-                              "id": "925f42cd-f965-47a3-ad42-b697133770e7"
-                            },
-                            {
-                              "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
-                              "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                              },
-                              "id": "7eaeb43b-6621-4ac7-8ab1-77efa07cfbdc"
+                              "id": "c947cec3-c038-4494-bea1-67aa7d6ab281"
                             },
                             {
                               "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -1314,7 +1306,15 @@
                                 "__collapse": true,
                                 "units": "pixels"
                               },
-                              "id": "4ecd0046-e920-4a65-b678-9ebf421b2f3e"
+                              "id": "b6ad658d-4f80-4b2b-a85a-c0324fb2adc9"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+                              "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                              },
+                              "id": "bd3e84bd-6c07-44f9-9e16-eb0ae234f457"
                             },
                             {
                               "command": "EVENT_ACTOR_DEACTIVATE",
@@ -1322,7 +1322,7 @@
                                 "actorId": "1d2ec320-c812-4755-9056-458922e06da8",
                                 "__collapse": true
                               },
-                              "id": "b791142d-f61a-47df-9a0c-1175141dae96"
+                              "id": "c0b5805e-d053-4842-8560-dd93d190341d"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1331,7 +1331,7 @@
                                 "speed": 1,
                                 "__collapse": true
                               },
-                              "id": "c8da6a9a-3621-41cd-9392-122ac7a22edb"
+                              "id": "a7141741-d12b-4823-9f0e-af9242c8554e"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -1340,7 +1340,7 @@
                                 "speed": 255,
                                 "__collapse": true
                               },
-                              "id": "3118e6af-3743-419d-87cf-e77724b49375"
+                              "id": "78400f4a-32ac-45fe-bc31-0b19a3f8ddfa"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_FRAME",
@@ -1352,7 +1352,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "8ad4a11e-dff2-45c5-aea0-63b7d95ad7d6"
+                              "id": "17dea536-4a5e-4364-8661-6ad594485e38"
                             },
                             {
                               "command": "EVENT_CAMERA_SHAKE",
@@ -1366,7 +1366,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "13267105-3627-42a1-99df-7acaa0bb7297"
+                              "id": "a6b4b6dc-9f5f-4171-a477-effb17faf587"
                             },
                             {
                               "command": "EVENT_WAIT",
@@ -1381,7 +1381,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "d89c5a0e-3102-47d4-927c-325a0b5f5bdc"
+                              "id": "58ba7489-c3e8-4e03-96aa-2a5af4cdddc0"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -1390,13 +1390,13 @@
                                 "speed": 7,
                                 "__collapse": true
                               },
-                              "id": "e4edff29-b8da-49fd-ba84-47d4332dfb73"
+                              "id": "194b222e-a6c3-4097-88c2-7c84179ca338"
                             }
                           ]
                         }
                       },
                       {
-                        "id": "10087968-5941-41ad-9e9c-c72d70fd4f59",
+                        "id": "d61ab286-6989-4917-90e1-861178d9ab0a",
                         "command": "EVENT_GROUP",
                         "args": {
                           "__collapse": true,
@@ -1410,7 +1410,7 @@
                                 "actorId": "$self$",
                                 "__collapse": true
                               },
-                              "id": "68e7e24d-4c9f-41f3-a130-8bd6772d4aff"
+                              "id": "9c5e08bf-249f-43da-b1e9-8e97bccd7a5a"
                             },
                             {
                               "command": "EVENT_ACTOR_ACTIVATE",
@@ -1418,7 +1418,7 @@
                                 "actorId": "1d2ec320-c812-4755-9056-458922e06da8",
                                 "__collapse": true
                               },
-                              "id": "1b4af910-459d-4543-b9b9-8a06bd883fe6"
+                              "id": "17c88494-cd42-4164-a91a-d9325f38c88d"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1427,7 +1427,7 @@
                                 "speed": 1,
                                 "__collapse": true
                               },
-                              "id": "75d4e599-3d30-451c-b971-9d94b963a677"
+                              "id": "fed4eb9a-bbad-44ca-b556-3918ecce65c9"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_POSITION",
@@ -1445,7 +1445,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "6469468d-b967-4189-92cd-519e2a7c5855"
+                              "id": "2505cb6e-f2a4-4460-8aa0-b2f813d79ae4"
                             },
                             {
                               "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -1467,7 +1467,7 @@
                                 "moveType": "horizontal",
                                 "__collapse": true
                               },
-                              "id": "37c715ca-bf64-4002-949a-b9c1e5ac9f8c"
+                              "id": "1c2ae044-03b3-4773-bf7d-fb964e5722e7"
                             },
                             {
                               "command": "EVENT_SET_VALUE",
@@ -1478,7 +1478,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "22112980-8f21-498a-9543-64c3407020ac"
+                              "id": "1645bc1b-4ce7-40d9-a687-1ab9743f6523"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1487,7 +1487,7 @@
                                 "speed": 6,
                                 "__collapse": true
                               },
-                              "id": "3254b6bc-827b-40dd-b0ab-b0306b2f6fa7"
+                              "id": "18c310d5-aa99-47e0-8a71-20663172daac"
                             },
                             {
                               "command": "EVENT_ACTOR_MOVE_TO",
@@ -1519,7 +1519,7 @@
                                 "__collapse": true,
                                 "units": "pixels"
                               },
-                              "id": "270fec3a-968a-427e-b489-eb5a12c09196"
+                              "id": "be20f869-a453-438a-97d6-a31e46e10d8c"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1528,7 +1528,7 @@
                                 "speed": 1,
                                 "__collapse": true
                               },
-                              "id": "3af74a99-c815-4815-9b56-d2d8a337cb0c"
+                              "id": "4f76e184-07b9-4d4c-b367-0919583a8ed9"
                             },
                             {
                               "command": "EVENT_SET_VALUE",
@@ -1539,7 +1539,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "c78a0789-d1e1-4682-87de-07e85a0c6d5d"
+                              "id": "cdf4ff57-9f2e-46d1-b0ca-9d0572211363"
                             },
                             {
                               "command": "EVENT_WAIT",
@@ -1554,7 +1554,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "eb6ae86f-43db-4d47-ab02-3d57111d5ce9"
+                              "id": "d68f58ec-bb8b-4b92-9c6e-2018894ecca0"
                             },
                             {
                               "command": "EVENT_SET_VALUE",
@@ -1565,7 +1565,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "fbdea3f2-929a-4de9-8ebb-bd6bc1828ca8"
+                              "id": "ef3e6db8-720b-40ac-8214-4b34b45babb8"
                             },
                             {
                               "command": "EVENT_SET_VALUE",
@@ -1576,7 +1576,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "50ca029d-ec82-45ac-94dc-8645bbc98f14"
+                              "id": "4ba321b0-de8d-4a34-a802-6b2285bccadf"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -1585,7 +1585,7 @@
                                 "speed": 1,
                                 "__collapse": true
                               },
-                              "id": "fc8e9cee-870b-4515-8fd5-6cce414e32c8"
+                              "id": "231cb0f9-78fa-43bd-9078-3922d861f2e9"
                             },
                             {
                               "command": "EVENT_WAIT",
@@ -1600,7 +1600,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "ef3dd883-f8a9-4461-bf2c-054ff120c6f4"
+                              "id": "d5ba3b33-83e6-475d-becf-8690bcbd15f5"
                             },
                             {
                               "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -1622,7 +1622,7 @@
                                 "moveType": "horizontal",
                                 "__collapse": true
                               },
-                              "id": "474fb453-1ccc-4ffe-bdef-99857fe17cd3"
+                              "id": "3cd320ae-1b8a-4582-bfc1-ebf4f19943fc"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1631,7 +1631,7 @@
                                 "speed": 2,
                                 "__collapse": true
                               },
-                              "id": "21da97e5-1a5e-4594-a2eb-6df2f41d8c85"
+                              "id": "80eab4d3-2fd5-4cb0-88f4-b7ff2d16f350"
                             },
                             {
                               "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -1653,7 +1653,7 @@
                                 "moveType": "horizontal",
                                 "__collapse": true
                               },
-                              "id": "5505b85e-ef37-4e61-8cb2-3b8474ab8c26"
+                              "id": "8235c394-aa43-4acf-ae14-320ee06a86b7"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1662,15 +1662,7 @@
                                 "speed": 4,
                                 "__collapse": true
                               },
-                              "id": "02d27ff1-5b0d-4535-9837-47ea17525098"
-                            },
-                            {
-                              "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
-                              "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                              },
-                              "id": "af0353ac-413a-4fa1-aaa8-3ad8eb4c1e8a"
+                              "id": "9f33dfad-0ad2-411c-bc22-6b25f1389cd3"
                             },
                             {
                               "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -1693,7 +1685,15 @@
                                 "__collapse": true,
                                 "units": "pixels"
                               },
-                              "id": "c879918e-ed40-4743-8839-de0ab6bff6c2"
+                              "id": "eea49091-8f37-45eb-95e1-f1bce3461a97"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+                              "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                              },
+                              "id": "92df0f74-a759-4100-895a-53515a74b387"
                             },
                             {
                               "command": "EVENT_ACTOR_DEACTIVATE",
@@ -1701,7 +1701,7 @@
                                 "actorId": "1d2ec320-c812-4755-9056-458922e06da8",
                                 "__collapse": true
                               },
-                              "id": "293e5d0a-2ac4-4a6f-8753-3993d48facb6"
+                              "id": "70228a32-e722-4ccb-9211-3b330795cfe4"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -1710,7 +1710,7 @@
                                 "speed": 1,
                                 "__collapse": true
                               },
-                              "id": "a4924d8f-30c8-4b70-92c1-7cf86f6351db"
+                              "id": "70831903-3d58-4053-a376-fa660edb2182"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -1719,7 +1719,7 @@
                                 "speed": 255,
                                 "__collapse": true
                               },
-                              "id": "57e7b9f6-8f4b-49a9-94bf-89e9aa2a2c50"
+                              "id": "985b8568-2b71-40bb-8f12-41ef13687a38"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_FRAME",
@@ -1731,7 +1731,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "9a398a9a-b0c9-4676-a565-f24febdc857c"
+                              "id": "d6b9d77b-d49f-4757-81b5-c7f8cd037cf1"
                             },
                             {
                               "command": "EVENT_CAMERA_SHAKE",
@@ -1745,7 +1745,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "adaa7c27-269a-494b-b04d-cf7ba937b6e0"
+                              "id": "ecea7273-f8f6-446c-8214-107baf89a58b"
                             },
                             {
                               "command": "EVENT_WAIT",
@@ -1760,7 +1760,7 @@
                                 },
                                 "__collapse": true
                               },
-                              "id": "06dd2b1d-35b5-487e-911c-271f9c3fa7ac"
+                              "id": "bac314ee-90be-49f6-90c6-c50b6f214730"
                             },
                             {
                               "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -1769,7 +1769,7 @@
                                 "speed": 7,
                                 "__collapse": true
                               },
-                              "id": "1154ea6c-05d8-4ae2-ad9a-d88a44445718"
+                              "id": "eece63af-b84c-4738-9d5f-9fabc55b67e4"
                             }
                           ]
                         }
