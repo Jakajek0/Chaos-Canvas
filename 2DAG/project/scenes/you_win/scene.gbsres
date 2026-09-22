@@ -3,7 +3,7 @@
   "id": "a665ebd2-4ada-469f-87af-da9ebc7af3a7",
   "_index": 11,
   "name": "You Win",
-  "backgroundId": "d8b52ca8-ef65-487e-8637-522c27958559",
+  "backgroundId": "ca84f9b2-251c-4432-a018-f4a05fb1a0a2",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -16,7 +16,16 @@
   "symbol": "scene_12",
   "x": 264,
   "y": 488,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "a7ffe6e1-a433-4bef-a3bf-f960c89bac5b"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []
