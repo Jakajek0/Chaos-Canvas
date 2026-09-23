@@ -192,7 +192,7 @@
             "value": "34"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -303,7 +303,36 @@
             "id": "4966e7d7-ab5e-4dff-bdab-19d712a7d4d3"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "__collapse": true
+            },
+            "id": "04ec3912-6b57-4273-9ed1-c0777670a3bb"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              },
+              "__collapse": true
+            },
+            "id": "05a24b4b-fc65-48f7-bc81-4e2fc7e5dad9"
+          }
+        ]
       },
       "id": "54320568-b589-4701-ae9e-3a8a72843f4d"
     }

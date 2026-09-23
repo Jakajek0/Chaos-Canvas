@@ -36,6 +36,17 @@
       "id": "c5b2560a-0107-4971-a8c8-975efccefc30"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "39",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "d9e8965c-b5f4-4da4-8202-346010735723"
+    },
+    {
       "command": "EVENT_CAMERA_SET_POSITION",
       "args": {
         "x": {

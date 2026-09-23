@@ -4,7 +4,7 @@
   "_index": 3,
   "name": "Cave",
   "backgroundId": "cf0711ac-8823-4ff7-a6bf-df42200d6948",
-  "tilesetId": "7bbc0e63-9e6c-4272-81b4-b7dfff2b15f0",
+  "tilesetId": "f7bd4631-92e2-483c-9885-31073d41fd09",
   "width": 32,
   "height": 36,
   "type": "TOPDOWN",
@@ -24,7 +24,7 @@
         "duration": 0.25,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -39,7 +39,7 @@
                 "type": "number",
                 "value": 18
               },
-              "tilesetId": "7bbc0e63-9e6c-4272-81b4-b7dfff2b15f0",
+              "tilesetId": "f7bd4631-92e2-483c-9885-31073d41fd09",
               "tileIndex": {
                 "type": "number",
                 "value": 0
@@ -74,10 +74,10 @@
                 "type": "number",
                 "value": 18
               },
-              "tilesetId": "7bbc0e63-9e6c-4272-81b4-b7dfff2b15f0",
+              "tilesetId": "f7bd4631-92e2-483c-9885-31073d41fd09",
               "tileIndex": {
                 "type": "number",
-                "value": 1
+                "value": 3
               },
               "__collapse": true
             },
@@ -124,10 +124,10 @@
                 "type": "number",
                 "value": 18
               },
-              "tilesetId": "4b14c61a-89a5-47c7-ac1c-0e8b61ce11b7",
+              "tilesetId": "f7bd4631-92e2-483c-9885-31073d41fd09",
               "tileIndex": {
                 "type": "number",
-                "value": 2
+                "value": 1
               },
               "__collapse": true
             },
@@ -159,10 +159,10 @@
                 "type": "number",
                 "value": 18
               },
-              "tilesetId": "4b14c61a-89a5-47c7-ac1c-0e8b61ce11b7",
+              "tilesetId": "f7bd4631-92e2-483c-9885-31073d41fd09",
               "tileIndex": {
                 "type": "number",
-                "value": 3
+                "value": 4
               },
               "__collapse": true
             },
@@ -209,10 +209,10 @@
                 "type": "number",
                 "value": 19
               },
-              "tilesetId": "4b14c61a-89a5-47c7-ac1c-0e8b61ce11b7",
+              "tilesetId": "f7bd4631-92e2-483c-9885-31073d41fd09",
               "tileIndex": {
                 "type": "number",
-                "value": 4
+                "value": 8
               },
               "__collapse": true
             },
@@ -244,10 +244,10 @@
                 "type": "number",
                 "value": 19
               },
-              "tilesetId": "4b14c61a-89a5-47c7-ac1c-0e8b61ce11b7",
+              "tilesetId": "f7bd4631-92e2-483c-9885-31073d41fd09",
               "tileIndex": {
                 "type": "number",
-                "value": 5
+                "value": 11
               },
               "__collapse": true
             },
@@ -294,10 +294,10 @@
                 "type": "number",
                 "value": 19
               },
-              "tilesetId": "4b14c61a-89a5-47c7-ac1c-0e8b61ce11b7",
+              "tilesetId": "f7bd4631-92e2-483c-9885-31073d41fd09",
               "tileIndex": {
                 "type": "number",
-                "value": 6
+                "value": 9
               },
               "__collapse": true
             },
@@ -329,10 +329,10 @@
                 "type": "number",
                 "value": 19
               },
-              "tilesetId": "4b14c61a-89a5-47c7-ac1c-0e8b61ce11b7",
+              "tilesetId": "f7bd4631-92e2-483c-9885-31073d41fd09",
               "tileIndex": {
                 "type": "number",
-                "value": 7
+                "value": 12
               },
               "__collapse": true
             },

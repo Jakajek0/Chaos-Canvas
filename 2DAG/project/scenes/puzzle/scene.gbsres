@@ -30,47 +30,77 @@
       "id": "ba35d719-414f-49ba-956c-714209c2bab9"
     },
     {
-      "command": "EVENT_CAMERA_MOVE_TO",
+      "command": "EVENT_IF",
       "args": {
-        "x": {
-          "type": "number",
-          "value": 8
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "39"
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "speed": 1,
-        "__collapse": true
+        "__collapseElse": true
       },
-      "id": "6fb36917-46cf-41cd-90b4-3e5d6ba05c42"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 1
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapse": true
-      },
-      "id": "3cf76ad5-864f-4759-947d-ef71ae8e84c0"
-    },
-    {
-      "command": "EVENT_CAMERA_LOCK",
-      "args": {
-        "speed": 1,
-        "axis": [
-          "x",
-          "y"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CAMERA_MOVE_TO",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "6fb36917-46cf-41cd-90b4-3e5d6ba05c42"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "3cf76ad5-864f-4759-947d-ef71ae8e84c0"
+          },
+          {
+            "command": "EVENT_CAMERA_LOCK",
+            "args": {
+              "speed": 1,
+              "axis": [
+                "x",
+                "y"
+              ],
+              "__collapse": true
+            },
+            "id": "ee18cea8-3830-42a2-bfde-79237fcff7c4"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "39",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "38c0d9a3-2b4f-4c55-b5cc-a65b17327544"
+          }
         ],
-        "__collapse": true
+        "false": []
       },
-      "id": "ee18cea8-3830-42a2-bfde-79237fcff7c4"
+      "id": "89895c43-3d43-448f-8af4-1112cc211746"
     }
   ],
   "playerHit1Script": [],

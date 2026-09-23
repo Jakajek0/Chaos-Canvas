@@ -290,6 +290,16 @@
       "id": "4912bee2-387a-472f-ae4f-6679b6149517__L0",
       "name": "retry",
       "symbol": "var_retry_0"
+    },
+    {
+      "id": "39",
+      "name": "puzzleSeen",
+      "symbol": "var_puzzleseen"
+    },
+    {
+      "id": "40",
+      "name": "Variable 40",
+      "symbol": "var_variable_40"
     }
   ],
   "constants": []

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "f7bd4631-92e2-483c-9885-31073d41fd09",
+  "name": "allwatertiles",
+  "symbol": "tileset_allwatertiles",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "allwatertiles.png"
+}

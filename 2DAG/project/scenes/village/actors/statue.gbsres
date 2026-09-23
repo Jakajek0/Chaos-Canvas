@@ -475,6 +475,17 @@
               "__collapse": true
             },
             "id": "a9cb8ef0-e84b-413e-ae4b-5aa43e670310"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "34",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "a4ad1c73-bd6f-459e-9043-8c9e25b70805"
           }
         ],
         "false": []

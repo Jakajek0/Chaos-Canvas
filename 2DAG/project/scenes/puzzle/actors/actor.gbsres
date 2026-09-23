@@ -26,11 +26,11 @@
         "operator": "<=",
         "distance": {
           "type": "number",
-          "value": 2
+          "value": 3
         },
         "otherActorId": "$self$",
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
