@@ -24,7 +24,7 @@
         "variable": "L0",
         "value": {
           "type": "number",
-          "value": 10
+          "value": 5
         },
         "__collapse": true
       },

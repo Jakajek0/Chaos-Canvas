@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "2ba2e1ec-e84f-4e7f-b702-fac870879f0f",
+  "name": "watertileexample",
+  "symbol": "tileset_watertile1",
+  "width": 4,
+  "height": 2,
+  "imageWidth": 32,
+  "imageHeight": 16,
+  "filename": "watertileexample.png"
+}
