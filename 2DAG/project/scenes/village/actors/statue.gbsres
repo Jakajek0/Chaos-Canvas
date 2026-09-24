@@ -18,6 +18,18 @@
   "symbol": "actor_54",
   "script": [
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "none",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "228d1cef-1e29-4180-9cc3-92aacd4a88bf"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -305,6 +317,18 @@
             "id": "75ed018b-6136-4637-95cf-2a31164fed6f"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "28f2c014-9d54-4b27-8f76-e34b4da6bd5e",
+              "pitch": 4,
+              "frequency": 300,
+              "duration": 0.05,
+              "effect": 53,
+              "__collapse": true
+            },
+            "id": "7b87ad25-b1ca-458b-9566-219ac881d1fc"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -396,13 +420,24 @@
             "id": "059c4297-46ba-4b59-b7a4-43840fb5da88"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "none",
+              "pitch": 4,
+              "frequency": 300,
+              "duration": 0.05,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "4cdcb6ae-4e2e-4003-93fe-0d0927b81472"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
                 "(You got the\nBrush of\nLiberation!)",
                 "(Charge up paint\nfrom a nearby\nriver using \"Z\",)",
-                "(Then attack the\ndarkness using\n\"X\"!)",
-                ""
+                "(Then attack the\ndarkness using\n\"X\"!)"
               ],
               "__section": "text",
               "avatarId": "",
@@ -486,6 +521,18 @@
               "__collapse": true
             },
             "id": "a4ad1c73-bd6f-459e-9043-8c9e25b70805"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "28f2c014-9d54-4b27-8f76-e34b4da6bd5e",
+              "pitch": 4,
+              "frequency": 300,
+              "duration": 0.05,
+              "effect": 53,
+              "__collapse": true
+            },
+            "id": "d637c7e7-76ca-41a3-9cfd-76c345445107"
           }
         ],
         "false": []
@@ -501,5 +548,5 @@
   "coordinateType": "tiles",
   "x": 21,
   "y": 6,
-  "_index": 5
+  "_index": 6
 }

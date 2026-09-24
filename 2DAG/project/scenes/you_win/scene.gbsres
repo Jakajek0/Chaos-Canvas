@@ -24,6 +24,36 @@
         "__collapse": true
       },
       "id": "a7ffe6e1-a433-4bef-a3bf-f960c89bac5b"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start"
+        ],
+        "__collapse": true
+      },
+      "id": "c902cad0-f39d-4ddc-995c-3eb033cfc1e3"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "785c41e1-47b8-46f9-b7e4-4027753ed7bd",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "3e9175ea-2981-4b84-963c-789378d384f1"
     }
   ],
   "playerHit1Script": [],

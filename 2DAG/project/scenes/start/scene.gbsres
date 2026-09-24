@@ -315,7 +315,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Who, are you..?"
+                "Who, are you...?"
               ],
               "__section": "text",
               "avatarId": "8676fd38-e645-4dc3-93f6-bdd064f1f038",

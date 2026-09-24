@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "2a4df4db-abcb-4fb0-ad9c-aab29cdb9beb",
+  "name": "Boss",
+  "symbol": "song_boss",
+  "settings": {},
+  "filename": "Boss.uge",
+  "type": "uge"
+}

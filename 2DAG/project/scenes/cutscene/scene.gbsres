@@ -25,6 +25,51 @@
       "id": "25c641c4-1d14-4cb6-b582-cd067d72ccfd"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "28f2c014-9d54-4b27-8f76-e34b4da6bd5e",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 53,
+        "__collapse": true
+      },
+      "id": "84f61f05-88e5-4067-9edc-402fcfee6455"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "41",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "ddab3b1d-9ee6-45e5-a91d-059b0e487105"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "34",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "79c0316f-2bc3-405a-bb53-2d7ad2f0c037"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "40",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "7fbf920b-0736-4ee8-8295-a1831c99d5f5"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "38",

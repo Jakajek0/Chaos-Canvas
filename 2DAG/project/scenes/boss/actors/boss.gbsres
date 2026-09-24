@@ -19,6 +19,18 @@
   "script": [],
   "startScript": [
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "28f2c014-9d54-4b27-8f76-e34b4da6bd5e",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 19,
+        "__collapse": true
+      },
+      "id": "72f2bdd8-6139-4bef-872f-4749ce929765"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "24",
@@ -240,6 +252,14 @@
         "__collapse": true
       },
       "id": "6165ca0a-2719-4d80-b798-ffd3afeeb17a"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "e2eb6dec-2800-4df9-a6c9-214f42e6b070",
+        "__collapse": true
+      },
+      "id": "9a9bc5de-c007-449f-a7fd-4cabfbf56f61"
     }
   ],
   "updateScript": [

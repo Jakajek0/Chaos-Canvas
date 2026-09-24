@@ -197,6 +197,16 @@
       "symbol": "var_cutsceneplayed"
     },
     {
+      "id": "39",
+      "name": "puzzleSeen",
+      "symbol": "var_puzzleseen"
+    },
+    {
+      "id": "40",
+      "name": "firstCharge",
+      "symbol": "var_firstcharge"
+    },
+    {
       "id": "d8200245-5aa1-4e8b-aa30-1a13bd2a9e1a__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -292,14 +302,9 @@
       "symbol": "var_retry_0"
     },
     {
-      "id": "39",
-      "name": "puzzleSeen",
-      "symbol": "var_puzzleseen"
-    },
-    {
-      "id": "40",
-      "name": "Variable 40",
-      "symbol": "var_variable_40"
+      "id": "41",
+      "name": "dialogueDone",
+      "symbol": "var_dialoguedone"
     }
   ],
   "constants": []

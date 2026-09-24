@@ -19,6 +19,18 @@
   "script": [],
   "startScript": [
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "28f2c014-9d54-4b27-8f76-e34b4da6bd5e",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 53,
+        "__collapse": true
+      },
+      "id": "83bb0fa4-023f-4ba5-82cc-230c5a2fb4a4"
+    },
+    {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "$self$",

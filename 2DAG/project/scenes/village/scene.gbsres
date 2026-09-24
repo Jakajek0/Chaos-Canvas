@@ -751,6 +751,20 @@
               "__collapse": true
             },
             "id": "ef85cc8a-5b20-4a42-afc7-9502f570b22b"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "28f2c014-9d54-4b27-8f76-e34b4da6bd5e",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 26,
+              "__collapse": true
+            },
+            "id": "9dffffd5-c174-407e-b03c-777d8d4b035c"
           }
         ],
         "false": []

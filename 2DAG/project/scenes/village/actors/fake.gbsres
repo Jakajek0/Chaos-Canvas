@@ -21,7 +21,8 @@
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "26503c61-53dd-4297-87f9-9444c3d22af1"
     }
@@ -33,5 +34,5 @@
   "coordinateType": "tiles",
   "x": 21,
   "y": 5,
-  "_index": 15
+  "_index": 0
 }
