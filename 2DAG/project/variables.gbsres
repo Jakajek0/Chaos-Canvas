@@ -207,6 +207,11 @@
       "symbol": "var_firstcharge"
     },
     {
+      "id": "41",
+      "name": "dialogueDone",
+      "symbol": "var_dialoguedone"
+    },
+    {
       "id": "d8200245-5aa1-4e8b-aa30-1a13bd2a9e1a__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -300,11 +305,6 @@
       "id": "4912bee2-387a-472f-ae4f-6679b6149517__L0",
       "name": "retry",
       "symbol": "var_retry_0"
-    },
-    {
-      "id": "41",
-      "name": "dialogueDone",
-      "symbol": "var_dialoguedone"
     }
   ],
   "constants": []
