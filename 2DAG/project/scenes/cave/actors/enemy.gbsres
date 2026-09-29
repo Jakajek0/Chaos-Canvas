@@ -355,6 +355,19 @@
             "id": "64ab1300-35da-427f-b343-0cd19205c06e"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "41717598-d5a1-4e7d-96f3-dea512375f62",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 17
+            },
+            "id": "c05f5323-8ba5-47d0-a8b0-ea86260fd55c"
+          },
+          {
             "command": "EVENT_ACTOR_EFFECTS",
             "args": {
               "effect": "flicker",

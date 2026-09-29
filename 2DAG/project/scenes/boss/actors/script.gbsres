@@ -138,6 +138,20 @@
                   "id": "289c4144-baba-4b39-ac95-a0786010b0a0"
                 },
                 {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "41717598-d5a1-4e7d-96f3-dea512375f62",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 17,
+                    "__collapse": true
+                  },
+                  "id": "0faa374e-f41f-42a3-b316-2f97dc2a558c"
+                },
+                {
                   "command": "EVENT_ACTOR_EFFECTS",
                   "args": {
                     "effect": "flicker",

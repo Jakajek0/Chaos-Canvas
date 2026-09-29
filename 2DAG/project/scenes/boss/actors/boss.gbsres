@@ -158,6 +158,20 @@
       "id": "02a4a58d-cb23-4d79-b297-facd1eddeba2"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "41717598-d5a1-4e7d-96f3-dea512375f62",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 30,
+        "__collapse": true
+      },
+      "id": "3797145b-7de5-4fca-8861-3b604eb410d1"
+    },
+    {
       "command": "EVENT_CAMERA_SHAKE",
       "args": {
         "time": 1,

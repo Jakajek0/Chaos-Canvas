@@ -44,19 +44,33 @@
               "time": 0.5,
               "frames": 30
             },
-            "id": "751a33e4-c974-4a2e-9629-fab555f0c2d0"
+            "id": "ea894108-ce91-4a74-ae57-0eb4e532b8ef"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "41717598-d5a1-4e7d-96f3-dea512375f62",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 20,
+              "__collapse": true
+            },
+            "id": "6507ceef-baa5-4c83-9aaf-92f9bda486e8"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "$self$"
             },
-            "id": "b1d435ea-2c70-4847-949f-67a18bdbc2b1"
+            "id": "34cfba8a-69a8-460f-865f-6e1a5cfdfae1"
           }
         ],
         "false": []
       },
-      "id": "7f8f9cf1-ae8e-4a72-934b-e479ef9c2352"
+      "id": "3c52eb38-095e-4fc7-99e1-a70cbd4015c7"
     },
     {
       "command": "EVENT_WAIT",
@@ -71,7 +85,7 @@
         },
         "__collapse": true
       },
-      "id": "12194ec0-abdb-4c06-9af6-20613abbbb63"
+      "id": "d6094d43-77e1-457e-96ac-6e95c3f70178"
     }
   ],
   "hit1Script": [],

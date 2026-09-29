@@ -62,7 +62,7 @@
     {
       "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
       "args": {
-        "actorId": "45e19e5a-040c-4887-b9b1-94fb843fccfb",
+        "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
         "operator": "<=",
         "distance": {
           "type": "number",
@@ -84,19 +84,33 @@
               "time": 0.5,
               "frames": 30
             },
-            "id": "9cc302e4-4283-4fb8-8d3f-ac4937697eb8"
+            "id": "d786079d-7249-4ad9-9f94-7e05743e4a3a"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "41717598-d5a1-4e7d-96f3-dea512375f62",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 20,
+              "__collapse": true
+            },
+            "id": "d55a93e6-90bb-4aa2-9475-2572159a3049"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "$self$"
             },
-            "id": "2918c4ec-5247-4c67-9d78-1ed665f27017"
+            "id": "00eab5a3-9700-4e28-a356-f6d8fd351ef0"
           }
         ],
         "false": []
       },
-      "id": "45443551-84b3-4c9a-813f-99dc2f288be4"
+      "id": "f3583e1d-e3aa-4ef3-87df-a774034ac4d4"
     },
     {
       "command": "EVENT_WAIT",
@@ -111,7 +125,7 @@
         },
         "__collapse": true
       },
-      "id": "67ac2374-412c-47d3-a406-be9063c75a2b"
+      "id": "b04746de-9037-411f-9044-77dc18dcfb81"
     }
   ],
   "hit1Script": [],

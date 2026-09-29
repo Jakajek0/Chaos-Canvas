@@ -717,6 +717,20 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "41717598-d5a1-4e7d-96f3-dea512375f62",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 11,
+              "__collapse": true
+            },
+            "id": "938997bd-e380-4c28-8696-83b16a923de8"
+          },
+          {
             "command": "EVENT_FADE_OUT",
             "args": {
               "speed": 3,
@@ -741,20 +755,6 @@
               "__collapse": true
             },
             "id": "0137dfe1-221b-4960-9852-d39074878d12"
-          },
-          {
-            "command": "EVENT_SOUND_PLAY_EFFECT",
-            "args": {
-              "type": "28f2c014-9d54-4b27-8f76-e34b4da6bd5e",
-              "priority": "medium",
-              "pitch": 4,
-              "frequency": 200,
-              "duration": 0.5,
-              "wait": true,
-              "effect": 26,
-              "__collapse": true
-            },
-            "id": "611341a7-3675-4cc7-bb8c-bf6d55a4eb46"
           }
         ],
         "false": []

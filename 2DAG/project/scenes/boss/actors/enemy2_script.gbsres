@@ -53,7 +53,7 @@
               },
               "otherActorId": "09f2f3a5-2a3e-4625-87db-8527102d70b5",
               "__collapseElse": true,
-              "__collapse": true,
+              "__collapse": false,
               "__comment": false
             },
             "children": {
@@ -76,6 +76,20 @@
                     "__collapse": true
                   },
                   "id": "a0753d06-9387-4f7a-abf5-d0111370d844"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "41717598-d5a1-4e7d-96f3-dea512375f62",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 17,
+                    "__collapse": true
+                  },
+                  "id": "24a1d4ef-1376-4f76-a9cc-8390cfcac48a"
                 },
                 {
                   "command": "EVENT_ACTOR_EFFECTS",

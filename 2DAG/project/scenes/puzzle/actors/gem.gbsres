@@ -29,6 +29,20 @@
       "id": "3b62d838-eaa4-4146-a067-0ec309f755d2"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "41717598-d5a1-4e7d-96f3-dea512375f62",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "5afa8d3e-809f-434d-8c9b-e5a6eb07df5c"
+    },
+    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
