@@ -22,7 +22,7 @@
     {
       "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
       "args": {
-        "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+        "actorId": "e8c66279-94b1-405c-9a12-cd648e1df420",
         "operator": "<=",
         "distance": {
           "type": "number",
@@ -30,7 +30,7 @@
         },
         "otherActorId": "$self$",
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -44,7 +44,7 @@
               "time": 0.5,
               "frames": 30
             },
-            "id": "fb7c2f5f-0546-4e87-8d75-ee8f2f8e565f"
+            "id": "c497cc38-1ca5-467d-a722-db29dfdf2934"
           },
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -58,19 +58,19 @@
               "effect": 20,
               "__collapse": true
             },
-            "id": "5eb7a14b-983a-40ee-bfa1-a8d981e38c69"
+            "id": "df11f3fb-1fd3-4d84-8b63-e38b031589c8"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "$self$"
             },
-            "id": "dae8df97-bcc5-41de-9fdc-b0f15b79446b"
+            "id": "0e6cc360-715b-4367-a03c-f14f3616371d"
           }
         ],
         "false": []
       },
-      "id": "74ca830d-cfbe-4e0d-84c4-2fd17e872a92"
+      "id": "9d3ddf70-c1cb-4431-b64b-8f762d7d7c28"
     },
     {
       "command": "EVENT_WAIT",
@@ -85,7 +85,7 @@
         },
         "__collapse": true
       },
-      "id": "c8b9aa0c-cca3-4c25-8602-92c426c7fa33"
+      "id": "0786a987-c4c6-4fd9-ab3a-f7451c74ceba"
     }
   ],
   "hit1Script": [],

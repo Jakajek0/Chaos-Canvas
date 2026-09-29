@@ -42,7 +42,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -109,7 +109,7 @@
                 {
                   "command": "EVENT_ACTOR_SET_POSITION",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "x": {
                       "type": "property",
                       "target": "player",
@@ -129,7 +129,7 @@
                 {
                   "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "x": {
                       "type": "number",
                       "value": 16
@@ -362,7 +362,7 @@
                 {
                   "command": "EVENT_ACTOR_ACTIVATE",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "__collapse": true,
                     "__comment": false
                   },
@@ -372,7 +372,7 @@
                   "command": "EVENT_ACTOR_EFFECTS",
                   "args": {
                     "effect": "flicker",
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "distance": 20,
                     "speed": 2,
                     "time": 0.2,
@@ -410,7 +410,7 @@
                   "command": "EVENT_ACTOR_EFFECTS",
                   "args": {
                     "effect": "flicker",
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "distance": 20,
                     "speed": 2,
                     "time": 0.2,
@@ -423,7 +423,7 @@
                 {
                   "command": "EVENT_ACTOR_DEACTIVATE",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "__collapse": true,
                     "__comment": false
                   },
@@ -434,7 +434,7 @@
                 {
                   "command": "EVENT_ACTOR_SET_POSITION",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "x": {
                       "type": "property",
                       "target": "player",
@@ -454,7 +454,7 @@
                 {
                   "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "x": {
                       "type": "number",
                       "value": 16
@@ -532,7 +532,7 @@
                 {
                   "command": "EVENT_ACTOR_SET_POSITION",
                   "args": {
-                    "actorId": "e8c66279-94b1-405c-9a12-cd648e1df420",
+                    "actorId": "88342bb2-703f-4fca-bfe5-c4b206722f93",
                     "x": {
                       "type": "property",
                       "target": "1685148b-5f0e-431e-bd0e-873b9fb5982d",
@@ -594,7 +594,7 @@
                       {
                         "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                         "args": {
-                          "actorId": "e8c66279-94b1-405c-9a12-cd648e1df420",
+                          "actorId": "88342bb2-703f-4fca-bfe5-c4b206722f93",
                           "x": {
                             "type": "number",
                             "value": 0
@@ -659,7 +659,7 @@
                       {
                         "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                         "args": {
-                          "actorId": "e8c66279-94b1-405c-9a12-cd648e1df420",
+                          "actorId": "88342bb2-703f-4fca-bfe5-c4b206722f93",
                           "x": {
                             "type": "number",
                             "value": -31
@@ -723,7 +723,7 @@
                       {
                         "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                         "args": {
-                          "actorId": "e8c66279-94b1-405c-9a12-cd648e1df420",
+                          "actorId": "88342bb2-703f-4fca-bfe5-c4b206722f93",
                           "x": {
                             "type": "number",
                             "value": 0
@@ -732,7 +732,7 @@
                             "type": "number",
                             "value": 31
                           },
-                          "__collapse": false,
+                          "__collapse": true,
                           "units": "pixels"
                         },
                         "id": "469c9064-1116-4ba0-b99b-9ce545dc440f"
@@ -787,7 +787,7 @@
                       {
                         "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                         "args": {
-                          "actorId": "e8c66279-94b1-405c-9a12-cd648e1df420",
+                          "actorId": "88342bb2-703f-4fca-bfe5-c4b206722f93",
                           "x": {
                             "type": "number",
                             "value": 31
@@ -809,7 +809,7 @@
                 {
                   "command": "EVENT_ACTOR_ACTIVATE",
                   "args": {
-                    "actorId": "e8c66279-94b1-405c-9a12-cd648e1df420",
+                    "actorId": "88342bb2-703f-4fca-bfe5-c4b206722f93",
                     "__collapse": true
                   },
                   "id": "8d86cb97-8c37-4869-a9b4-c58a171c2fb2"
@@ -818,7 +818,7 @@
                   "command": "EVENT_ACTOR_EFFECTS",
                   "args": {
                     "effect": "splitIn",
-                    "actorId": "e8c66279-94b1-405c-9a12-cd648e1df420",
+                    "actorId": "88342bb2-703f-4fca-bfe5-c4b206722f93",
                     "distance": 8,
                     "speed": 3,
                     "time": 0.5,
@@ -856,7 +856,7 @@
                 {
                   "command": "EVENT_ACTOR_ACTIVATE",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "__collapse": true,
                     "__comment": false
                   },
@@ -865,7 +865,7 @@
                 {
                   "command": "EVENT_ACTOR_SET_FRAME",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "frame": {
                       "type": "variable",
                       "value": "15"
@@ -879,7 +879,7 @@
                   "command": "EVENT_ACTOR_EFFECTS",
                   "args": {
                     "effect": "flicker",
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "distance": 20,
                     "speed": 2,
                     "time": 0.2,
@@ -917,7 +917,7 @@
                   "command": "EVENT_ACTOR_EFFECTS",
                   "args": {
                     "effect": "flicker",
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "distance": 20,
                     "speed": 2,
                     "time": 0.2,
@@ -930,7 +930,7 @@
                 {
                   "command": "EVENT_ACTOR_DEACTIVATE",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "__collapse": true,
                     "__comment": false
                   },
@@ -940,7 +940,7 @@
                   "command": "EVENT_ACTOR_EFFECTS",
                   "args": {
                     "effect": "splitOut",
-                    "actorId": "e8c66279-94b1-405c-9a12-cd648e1df420",
+                    "actorId": "88342bb2-703f-4fca-bfe5-c4b206722f93",
                     "distance": 2,
                     "speed": 1,
                     "time": 0.5,
@@ -952,7 +952,7 @@
                 {
                   "command": "EVENT_ACTOR_DEACTIVATE",
                   "args": {
-                    "actorId": "372f552a-0dec-4c74-a03a-9581dde42710",
+                    "actorId": "88342bb2-703f-4fca-bfe5-c4b206722f93",
                     "__collapse": true,
                     "__comment": false
                   },
@@ -961,7 +961,7 @@
                 {
                   "command": "EVENT_ACTOR_SET_POSITION",
                   "args": {
-                    "actorId": "e8c66279-94b1-405c-9a12-cd648e1df420",
+                    "actorId": "88342bb2-703f-4fca-bfe5-c4b206722f93",
                     "x": {
                       "type": "number",
                       "value": 0
@@ -990,7 +990,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -1035,7 +1035,7 @@
                 {
                   "command": "EVENT_ACTOR_ACTIVATE",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "__collapse": true,
                     "__comment": false
                   },
@@ -1044,7 +1044,7 @@
                 {
                   "command": "EVENT_ACTOR_SET_FRAME",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "frame": {
                       "type": "variable",
                       "value": "15"
@@ -1057,7 +1057,7 @@
                 {
                   "command": "EVENT_ACTOR_SET_POSITION",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "x": {
                       "type": "property",
                       "target": "player",
@@ -1077,7 +1077,7 @@
                 {
                   "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "x": {
                       "type": "number",
                       "value": 16
@@ -1096,7 +1096,7 @@
                   "command": "EVENT_ACTOR_EFFECTS",
                   "args": {
                     "effect": "flicker",
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "distance": 20,
                     "speed": 2,
                     "time": 0.2,
@@ -1126,7 +1126,7 @@
                   "command": "EVENT_ACTOR_EFFECTS",
                   "args": {
                     "effect": "flicker",
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "distance": 20,
                     "speed": 2,
                     "time": 0.2,
@@ -1139,7 +1139,7 @@
                 {
                   "command": "EVENT_ACTOR_DEACTIVATE",
                   "args": {
-                    "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                    "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                     "__collapse": true,
                     "__comment": false
                   },
@@ -1189,7 +1189,7 @@
                       {
                         "command": "EVENT_ACTOR_SET_FRAME",
                         "args": {
-                          "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                          "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                           "frame": {
                             "type": "variable",
                             "value": "15"
@@ -1202,7 +1202,7 @@
                       {
                         "command": "EVENT_ACTOR_ACTIVATE",
                         "args": {
-                          "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                          "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                           "__collapse": true,
                           "__comment": false
                         },
@@ -1211,7 +1211,7 @@
                       {
                         "command": "EVENT_ACTOR_SET_POSITION",
                         "args": {
-                          "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                          "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                           "x": {
                             "type": "property",
                             "target": "player",
@@ -1231,7 +1231,7 @@
                       {
                         "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
                         "args": {
-                          "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                          "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                           "x": {
                             "type": "number",
                             "value": 16
@@ -1250,7 +1250,7 @@
                         "command": "EVENT_ACTOR_EFFECTS",
                         "args": {
                           "effect": "flicker",
-                          "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                          "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                           "distance": 20,
                           "speed": 2,
                           "time": 0.2,
@@ -1280,7 +1280,7 @@
                         "command": "EVENT_ACTOR_EFFECTS",
                         "args": {
                           "effect": "flicker",
-                          "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                          "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                           "distance": 20,
                           "speed": 2,
                           "time": 0.2,
@@ -1293,7 +1293,7 @@
                       {
                         "command": "EVENT_ACTOR_DEACTIVATE",
                         "args": {
-                          "actorId": "cadf6394-5f90-43bb-91dc-0e455eec82d8",
+                          "actorId": "852d03db-85c8-4055-b235-cc1f63ef6a55",
                           "__collapse": true,
                           "__comment": false
                         },
