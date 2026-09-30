@@ -266,14 +266,6 @@
         "__collapse": true
       },
       "id": "6165ca0a-2719-4d80-b798-ffd3afeeb17a"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "2a4df4db-abcb-4fb0-ad9c-aab29cdb9beb",
-        "__collapse": true
-      },
-      "id": "ba26cd69-c7c6-48e6-9e67-0d9977794614"
     }
   ],
   "updateScript": [

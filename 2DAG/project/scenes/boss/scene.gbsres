@@ -368,6 +368,14 @@
         ]
       },
       "id": "60585ac2-746b-4344-8547-90c359785cc8"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "2a4df4db-abcb-4fb0-ad9c-aab29cdb9beb",
+        "__collapse": true
+      },
+      "id": "39af052e-6103-4bba-bb24-a6203701e8bc"
     }
   ],
   "playerHit1Script": [
