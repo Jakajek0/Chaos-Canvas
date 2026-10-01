@@ -266,6 +266,14 @@
         "__collapse": true
       },
       "id": "6165ca0a-2719-4d80-b798-ffd3afeeb17a"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "2a4df4db-abcb-4fb0-ad9c-aab29cdb9beb",
+        "__collapse": true
+      },
+      "id": "70ff49c0-5f4c-49fc-95b6-d0923c0f62e9"
     }
   ],
   "updateScript": [
